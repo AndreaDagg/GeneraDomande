@@ -44,7 +44,7 @@ session_start();
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>-->
 <div id="argF">
-    <form action="logic.php" method="get">
+     <form action="logic.php" method="get">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -59,7 +59,7 @@ session_start();
             </div>
             <div class="row">
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-success" name="arg" value="2">Derivate
+                    <button id="btnARG" type="submit" class="btn btn-outline-warning" name="arg" value="2">Derivate
                     </button>
                 </div>
                 <div class="col">
@@ -69,17 +69,17 @@ session_start();
             </div>
             <div class="row">
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-warning" name="arg" value="4">Serie
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="4">Serie
                     </button>
                 </div>
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-info" name="arg" value="5">Integrali
+                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="5">Integrali
                     </button>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="6">Eq.
+                    <button id="btnARG" type="submit" class="btn btn-outline-success" name="arg" value="6">Eq.
                         Differenziali
                     </button>
                 </div>
