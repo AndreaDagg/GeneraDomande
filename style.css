@@ -29,6 +29,16 @@
 
 
 }
-#h1Title{
-font-family: "Comic Sans MS";
+#h1Title {
+    font-family: "Comic Sans MS";
+}
+
+#btnARG{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 100px;
+}
+#btnGenDom{
+    margin-bottom: 20px;
+    height: 100px;
 }

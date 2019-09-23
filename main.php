@@ -29,7 +29,7 @@ session_start();
         </div>
     <?php } ?>
     <form action="logic.php" id="genrator">
-        <button type="submit" class="btn btn-primary btn-lg btn-block">Genera Domanda</button>
+        <button id="btnGenDom" type="submit" class="btn btn-primary btn-lg btn-block">Genera Domanda</button>
     </form>
 </div>
 <!--<form>
@@ -42,13 +42,46 @@ session_start();
 </form>-->
 <div id="argF">
     <form action="logic.php" method="get">
-        <button type="submit" class="btn btn-outline-primary" name="arg" value="0">Limiti</button>
-        <button type="submit" class="btn btn-outline-secondary" name="arg" value="1">Successioni</button>
-        <button type="submit" class="btn btn-outline-success" name="arg" value="2">Derivate</button>
-        <button type="submit" class="btn btn-outline-danger" name="arg" value="3">Derivate II</button>
-        <button type="submit" class="btn btn-outline-warning" name="arg" value="4">Serie</button>
-        <button type="submit" class="btn btn-outline-info" name="arg" value="5">Integrali</button>
-        <button type="submit" class="btn btn-outline-primary" name="arg" value="6">Eq. Differenziali</button>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="0">Limiti
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="1">
+                        Successioni
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-success" name="arg" value="2">Derivate
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-danger" name="arg" value="3">Derivate II
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-warning" name="arg" value="4">Serie
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-info" name="arg" value="5">Integrali
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="6">Eq.
+                        Differenziali
+                    </button>
+                </div>
+            </div>
+        </div>
     </form>
 </div>
 
