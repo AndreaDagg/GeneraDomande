@@ -1,0 +1,32 @@
+#title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600%;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
+}
+
+#h1Title {
+    font-size: 650%;
+    font-family: "Comic Sans MS";
+}
+body{
+    background-color:#e9e9e9; }
+
+div{
+    margin-left: 5%;
+    width: 90%;
+}
+button{
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    height: 100px;
+}
+
+#A1{
+    background-color: #2997C7;
+    font-size: xx-large;
+}
+#A1:hover{
+    background-color: rgba(47, 165, 219, 0.86);
+}

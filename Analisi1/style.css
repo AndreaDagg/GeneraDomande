@@ -11,7 +11,7 @@
 }
 #alert {
     border-width: 3px;
-    border-color: #007BFF;
+    border-color: rgba(0, 123, 255, 0.87);
 
 }
 #boxText{
@@ -41,4 +41,13 @@
 #btnGenDom{
     margin-bottom: 20px;
     height: 100px;
+}
+body{
+    background-color:#e9e9e9;
+    font-size: xx-large;
+}
+#close{
+    margin-top: 6vh;
+    
+    font-size: xx-large;
 }

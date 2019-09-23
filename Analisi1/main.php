@@ -8,7 +8,9 @@ session_start();
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"
     <meta charset="UTF-8">
-    <link rel="icon" href="img/16+.jpg" type="image/jpg" />
+    <link rel="icon" href="img/16+.jpg" type="image/jpg"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
     <title>Generatore</title>
 
 </head>
@@ -79,6 +81,19 @@ session_start();
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="6">Eq.
                         Differenziali
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form id="close" action="../index.php">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button id="btnARG" type="submit" class="btn btn-danger">
+                        <i class="material-icons">
+                            close
+                        </i>
                     </button>
                 </div>
             </div>
