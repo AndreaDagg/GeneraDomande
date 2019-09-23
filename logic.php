@@ -1,7 +1,8 @@
 <?php
 session_start();
 $dbLimiti = array("Asintoti", "Maggioranri & Minorati", "Teorema insieme numerico", "Funzioni limitate", "Massimi e minimi relativi", "Risultati dei limiti", "Limiti di funzioni", "Funzioni continue", "grafici di funzioni");
-$dbSuccessioni = array("Definizione di successione", "Successione Limitata", "Limiti di successioni", "Teorema unicita del limite", "Teorema di permanenza del segno");
+$dbSuccessioni = array("Definizione di successione", "Successione Limitata", "Limiti di successioni", "Teorema unicita del limite",
+    "Teorema di permanenza del segno","Grafici delle successioni","Teorema del confronto di successioni", "Teorema Successioni infinitesimali","Teorema del prodotto di una succezzione limitata per una successione infinitesima");
 $dbDerivate = "";
 $dbDerivateII = "";
 $dbSerie = "";
