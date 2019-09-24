@@ -8,7 +8,7 @@ session_start();
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"
     <meta charset="UTF-8">
-    <link rel="icon" href="img/16+.jpg" type="image/jpg"/>
+    <link rel="icon" href="img/16.png" type="image/jpg"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <title>Generatore</title>
