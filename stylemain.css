@@ -11,9 +11,9 @@
     font-family: "Comic Sans MS";
 }
 body{
-    background-color:#e9e9e9; }
+    background-color:#ffffff; }
 
-div{
+#mainbox{
     margin-left: 5%;
     width: 90%;
 }
@@ -29,4 +29,14 @@ button{
 }
 #A1:hover{
     background-color: rgba(47, 165, 219, 0.86);
+}
+
+#endCard{
+    margin-top: 30vh;
+    height: 22vh;
+    background-color: #212529 ;
+}
+
+#endCardText{
+    margin-top: 5vh;
 }

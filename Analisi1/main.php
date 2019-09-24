@@ -32,7 +32,8 @@ session_start();
         </div>
     <?php } ?>
     <form action="logic.php" id="genrator">
-        <button id="btnGenDom" type="submit" class="btn btn-primary btn-lg btn-block">Genera Domanda</button>
+        <button id="btnGenDom" type="submit" class="btn btn-primary btn-lg btn-block"><h2
+                    style="font-family: 'Comic Sans MS'">Genera Domanda</h2></button>
     </form>
 </div>
 <!--<form>
@@ -44,43 +45,62 @@ session_start();
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>-->
 <div id="argF">
-     <form action="logic.php" method="get">
+    <form action="logic.php" method="get">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="0">Limiti
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="0"><h4>
+                            Limiti</h4>
                     </button>
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="1">
-                        Successioni
+                        <h4> Successioni </h4>
                     </button>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-warning" name="arg" value="2">Derivate
+                    <button id="btnARG" type="submit" class="btn btn-outline-warning" name="arg" value="2"><h4>
+                            Derivate</h4>
                     </button>
                 </div>
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-danger" name="arg" value="3">Derivate II
-                    </button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="4">Serie
-                    </button>
-                </div>
-                <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="5">Integrali
+                    <button id="btnARG" type="submit" class="btn btn-outline-danger" name="arg" value="3"><h4>Derivate
+                            II</h4>
                     </button>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-success" name="arg" value="6">Eq.
-                        Differenziali
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="4"><h4>
+                            Serie</h4>
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="5"><h4>
+                            Integrali</h4>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-success" name="arg" value="6"><h4>Eq.
+                            Differenziali</h4>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form id="close" action="https://www.google.it">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button id="btnARG" type="submit" class="btn btn-success" value="ciao">
+                        <i class="material-icons">
+                            <h1>search</h1>
+                        </i>
+                        <p> Ricerca Google</p>
                     </button>
                 </div>
             </div>
@@ -90,16 +110,30 @@ session_start();
         <div class="row">
             <div class="col">
                 <div class="d-flex justify-content-center">
-                    <button id="btnARG" type="submit" class="btn btn-danger">
+                    <button id="btnSe" type="submit" class="btn btn-danger">
                         <i class="material-icons">
-                            close
+                            <h1>close</h1>
                         </i>
+                        <p>Home</p>
                     </button>
                 </div>
             </div>
         </div>
     </form>
+
 </div>
+<div class="card" id="endCard">
+    <div class="container" id="endCardText">
+        <div class="d-flex justify-content-center">
+            <i class="material-icons">
+                <h5 style="margin-right: 17px;color: lightgrey">share</h5>
+            </i>
+            <a href="https://github.com/AndreaDagg/GeneraDomandeAnalisi1.git" class="card-text"><h5
+                        style=" font-family: 'Comic Sans MS'; color: lightgrey"> GitHub </h5></a>
+        </div>
+    </div>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

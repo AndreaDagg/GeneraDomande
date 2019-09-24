@@ -43,11 +43,31 @@
     height: 100px;
 }
 body{
-    background-color:#e9e9e9;
+    background-color:#ffffff;
     font-size: xx-large;
 }
 #close{
     margin-top: 6vh;
-    
+
     font-size: xx-large;
+}
+
+h4{
+    font-family: "Comic Sans MS";
+}
+#btnSe{
+    margin-top: -5vh ;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 100px;
+}
+
+#endCard{
+    margin-top: 30vh;
+    height: 22vh;
+    background-color: #212529 ;
+}
+
+#endCardText{
+    margin-top: 5vh;
 }
