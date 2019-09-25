@@ -5,7 +5,8 @@ $dbLimiti = array("Asintoti", "Maggioranti & Minorati", "Teorema insieme numeric
 $dbSuccessioni = array("Definizione di successione", "Successione Limitata", "Limiti di successioni", "Teorema unicita del limite",
     "Teorema di permanenza del segno","Grafici delle successioni","Teorema del confronto di successioni", "Teorema Successioni infinitesimali","Teorema del prodotto di una succezzione limitata per una successione infinitesima",
     "Dimostrazione della successione a^n", "Dimostrazione funzione trigonometrica indeterminata", "Disuguaglianza di Bernulli","Successioni Monotone");
-$dbDerivate = Array("Definizione di Derivata","Continuita' e derivabilita' di una funzione","Punti di non derivabilita'");
+$dbDerivate = Array("Definizione di Derivata","Continuita' e derivabilita' di una funzione","Punti di non derivabilita'","Derivata della funzione potenza ^2 ^3 ^n","Derivata radice n","Derivata sin e cos","Derivata log ed e^n",
+                   "Regole di derivazione somma e prodotto","Derivate successive","Punto di massimo e minimo relativo ed assoluto","Teorema di Fermat");
 $dbDerivateII = "";
 $dbSerie = "";
 $dbIntegrali = "";
