@@ -103,10 +103,9 @@ if (!isset($_SESSION['NumIndex'])) {
     <!--   COLLAPSE NOTE  -->
 
     <?php
-    foreach ($List
-             as $Arg => $Name) {
+    foreach ($List as $Arg => $Name) {
         ?>
-        <div class="card" style="background-color: #343A40; color: lightgrey">
+        <div class="card" style="background-color: #343A40; color: lightgrey; margin-top: 1vh">
             <div class="card-header">
                 <h2 class="mb-0">
                     <div class="d-flex justify-content-center">
@@ -123,6 +122,7 @@ if (!isset($_SESSION['NumIndex'])) {
                 </div>
                 <?php
                 foreach ($Name
+
                 as $value){ ?> <p> <?php print_r($value . "\n"); ?>
                 <p> <?php } ?>
             </div>
@@ -133,28 +133,30 @@ if (!isset($_SESSION['NumIndex'])) {
 
 
     <div class="row">
-        <form id="close" action="https://www.google.it">
-            <div class="col">
-                <button id="btnARG" type="submit" class="btn btn-success" value="ciao">
-                    <i class="material-icons">
-                        <h1>search</h1>
-                    </i>
-                    <p> Ricerca Google</p>
-                </button>
-            </div>
-        </form>
-        <form id="close" action="../index.php">
-            <div class="col">
-                <button id="btnSe" type="submit" class="btn btn-danger">
-                    <i class="material-icons">
-                        <h1>close</h1>
-                    </i>
-                    <p>Home</p>
-                </button>
-            </div>
-        </form>
-
+        <div class="d-flex justify-content-center">
+            <form id="close" action="https://www.google.it">
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-success" value="ciao">
+                        <i class="material-icons">
+                            <h1>search</h1>
+                        </i>
+                        <p> Ricerca Google</p>
+                    </button>
+                </div>
+            </form>
+            <form id="close" action="../index.php">
+                <div class="col">
+                    <button id="btnSe" type="submit" class="btn btn-danger">
+                        <i class="material-icons">
+                            <h1>close</h1>
+                        </i>
+                        <p>Home</p>
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
+
     <div class="card" id="endCard">
         <div class="container" id="endCardText">
             <div class="d-flex justify-content-center">
