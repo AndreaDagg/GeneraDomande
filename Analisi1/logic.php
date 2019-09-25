@@ -1,7 +1,7 @@
 <?php
 session_start();
 $dbLimiti = array("Asintoti", "Maggioranti & Minorati", "Teorema insieme numerico", "Funzioni limitate", "Massimi e minimi relativi", "Risultati dei limiti", "Limiti di funzioni", "Funzioni continue", "grafici di funzioni",
-    "Teorema di permanenza del segno delle funzioni","Teorema dei valori intemedi","Teorema dell'esistenbza degli zeri","Teorema dell'esistenza dell'inversa di una funzione","Teorema di Weierstrass");
+    "Teorema di permanenza del segno delle funzioni","Teorema dei valori intemedi","Teorema dell'esistenza degli zeri","Teorema dell'esistenza dell'inversa di una funzione","Teorema di Weierstrass");
 $dbSuccessioni = array("Definizione di successione", "Successione Limitata", "Limiti di successioni", "Teorema unicita del limite",
     "Teorema di permanenza del segno","Grafici delle successioni","Teorema del confronto di successioni", "Teorema Successioni infinitesimali","Teorema del prodotto di una succezzione limitata per una successione infinitesima",
     "Dimostrazione della successione a^n", "Dimostrazione funzione trigonometrica indeterminata", "Disuguaglianza di Bernulli","Successioni Monotone");
