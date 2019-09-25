@@ -29,16 +29,16 @@ if(isset($dbNum)){
         case 2:
             $dbCo = $dbDerivate;
             break;
-        case 3:
+        /*case 3:
             $dbCo = $dbDerivateII;
-            break;
-        case 4:
+            break;*/
+        case 3:
             $dbCo = $dbSerie;
             break;
-        case 5:
+        case 4:
             $dbCo = $dbIntegrali;
             break;
-        case 6:
+        case 5:
             $dbCo = $dbEqDiff;
             break;
     }
