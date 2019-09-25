@@ -30,13 +30,13 @@ button{
 #A1:hover{
     background-color: rgba(47, 165, 219, 0.86);
 }
-
 #endCard{
     margin-top: 30vh;
     height: 22vh;
     background-color: #212529 ;
+    width: 100%;
 }
 
 #endCardText{
-    margin-top: 5vh;
+    padding-top: 10vh;
 }
