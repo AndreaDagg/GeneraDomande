@@ -9,7 +9,8 @@ $dbDerivate = Array("Definizione di Derivata","Continuita' e derivabilita' di un
                    "Regole di derivazione somma e prodotto","Derivate successive","Punto di massimo e minimo relativo ed assoluto","Teorema di Fermat","Teorema di Rolle","Teorema di Lagrange","Criteri di Monotonia Derivate",
                     "Teorema De L'Hopital","Formula di Taylor","Teorema di caratterizzazione delle funzioni costanti","Funzioni concave e convesse");
 $dbDerivateII = "";
-$dbSerie = "";
+$dbSerie = array("Serie numerica","Teorema convergenza della serie","Critieri risoluzione serie","Teorema serie a termini non negativi","Serie geometrica"
+,"Serie armonica","Criterio del confronto");
 $dbIntegrali = "";
 $dbEqDiff = "";
 
