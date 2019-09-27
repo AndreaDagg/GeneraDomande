@@ -9,9 +9,9 @@ $dbDerivate = Array("Definizione di Derivata","Continuita' e derivabilita' di un
                    "Regole di derivazione somma e prodotto","Derivate successive","Punto di massimo e minimo relativo ed assoluto","Teorema di Fermat","Teorema di Rolle","Teorema di Lagrange","Criteri di Monotonia Derivate",
                     "Teorema De L'Hopital","Formula di Taylor","Teorema di caratterizzazione delle funzioni costanti","Funzioni concave e convesse");
 $dbDerivateII = "";
-$dbSerie = array("Serie numerica","Teorema convergenza della serie","Critieri risoluzione serie","Teorema serie a termini non negativi","Serie geometrica"
+$dbSerie = Array("Serie numerica","Teorema convergenza della serie","Critieri risoluzione serie","Teorema serie a termini non negativi","Serie geometrica"
 ,"Serie armonica","Serie armonica generalizzata","Criterio del confronto","Criterio del rapporto","Criterio della radice","Serie di Taylor");
-$dbIntegrali = "definizione di integrale","Primitiva","Metodi di integrazione","Integrale definito","Somma di Riemann","Teorema della media",
+$dbIntegrali = Array("definizione di integrale","Primitiva","Metodi di integrazione","Integrale definito","Somma di Riemann","Teorema della media",
 "Teorema di Riemann","Integrazione di finzioni limitate","Formula fondamentale del calcolo integrale","Teorema di caratterizzazione delle primitiva di una funzione",
 "Teorema fondamentale del calcolo integrale");
 $dbEqDiff = "";
