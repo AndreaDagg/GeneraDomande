@@ -10,8 +10,10 @@ $dbDerivate = Array("Definizione di Derivata","Continuita' e derivabilita' di un
                     "Teorema De L'Hopital","Formula di Taylor","Teorema di caratterizzazione delle funzioni costanti","Funzioni concave e convesse");
 $dbDerivateII = "";
 $dbSerie = array("Serie numerica","Teorema convergenza della serie","Critieri risoluzione serie","Teorema serie a termini non negativi","Serie geometrica"
-,"Serie armonica","Criterio del confronto");
-$dbIntegrali = "";
+,"Serie armonica","Serie armonica generalizzata","Criterio del confronto","Criterio del rapporto","Criterio della radice","Serie di Taylor");
+$dbIntegrali = "definizione di integrale","Primitiva","Metodi di integrazione","Integrale definito","Somma di Riemann","Teorema della media",
+"Teorema di Riemann","Integrazione di finzioni limitate","Formula fondamentale del calcolo integrale","Teorema di caratterizzazione delle primitiva di una funzione",
+"Teorema fondamentale del calcolo integrale");
 $dbEqDiff = "";
 
 if (isset($_GET['arg'])) {
