@@ -19,7 +19,7 @@ $dbEqDiff = "";
 if (isset($_GET['arg'])) {
     $dbNum = $_GET['arg'];
 } else {
-    $dbNum = rand(0, 1);
+    $dbNum = rand(0, 5);
 }
 
 if(isset($dbNum)){
