@@ -3,7 +3,7 @@ session_start();
 //Numero degli array degli argomenti considerando il proimo come zero
 $NumeroArgomenti = 1;
 $dbStruttureDati = array("");
-$dbGrafi = array("");
+$dbGrafi = array("Definizione di Grafo", "Grafo orientato e non orientato", "grafo completo e connesso", "Rappresentazione di un grafo in memoria", "Grado di un grafo");
 
 
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
