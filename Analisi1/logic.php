@@ -16,6 +16,7 @@ $dbIntegrali = Array("definizione di integrale","Primitiva","Metodi di integrazi
 "Teorema fondamentale del calcolo integrale");
 $dbEqDiff = "";
 
+/* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
 if (isset($_GET['arg'])) {
     $dbNum = $_GET['arg'];
 } else {
@@ -50,4 +51,4 @@ if(isset($dbNum)){
 
 $r = rand(0, count($dbCo) - 1);
 $_SESSION ['result'] = json_encode($dbCo[$r]);
-header('Location: main.php');
+header('Location: mainAlgoritmi.php');
