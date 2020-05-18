@@ -37,7 +37,7 @@ if (!isset($_SESSION['NumIndex'])) {
         <div class="alert alert-light" role="article" id="alert">
         </div>
     <?php } ?>
-    <form action="logic.php" id="genrator">
+    <form action="logicAlgoritmi.php" id="genrator">
         <button id="btnGenDom" type="submit" class="btn btn-dark btn-lg btn-block"><h2
                     style="font-family: 'Comic Sans MS'; ">Genera Domanda</h2></button>
     </form>
@@ -51,7 +51,7 @@ if (!isset($_SESSION['NumIndex'])) {
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>-->
 <div id="argF">
-    <form action="logic.php" method="get">
+    <form action="logicAlgoritmi.php" method="get">
         <div class="container">
             <div class="row">
                 <div class="col">
