@@ -1,10 +1,11 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['NumIndex'])) {
+if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
     header("Location: note.php");
 } else {
     $List = $_SESSION['NumIndex'];
+    $_SESSION['NumIndex'] = 0;
 }
 ?>
 <!DOCTYPE html>

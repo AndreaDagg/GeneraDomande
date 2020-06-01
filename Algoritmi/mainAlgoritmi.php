@@ -1,10 +1,13 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['NumIndex'])) {
+if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
     header("Location: noteAlgoritmi.php");
 } else {
     $List = $_SESSION['NumIndex'];
+    //annulla il valore dell'array nella sessione
+    $_SESSION['NumIndex'] = 0;
+
 }
 ?>
 <!DOCTYPE html>
