@@ -10,41 +10,56 @@
     font-size: 650%;
     font-family: "Comic Sans MS";
 }
-body{
-    background-color:#ffffff; }
 
-#mainbox{
+body {
+    background-color: #ffffff;
+}
+
+#mainbox {
     margin-left: 5%;
     width: 90%;
 }
-button{
+
+button {
     margin-top: 4vh;
     margin-bottom: 2vh;
     height: 100px;
 }
 
-#A1{
-    background-color: #2997C7;
+#A1 {
+    background-color: #01579b;
     font-size: xx-large;
-}
-#A1:hover{
-    background-color: rgba(47, 165, 219, 0.86);
 }
 
-#A2{
-    background-color: #3e9abf;
+#A1:hover {
+    background-color: #2196f3;
+}
+
+#A2 {
+    background-color: #0277bd;
     font-size: xx-large;
 }
-#A2:hover{
-    background-color: rgba(47, 165, 219, 0.86);
+
+#A2:hover {
+    background-color: #2196f3;
 }
-#endCard{
+
+#A3 {
+    background-color: #0288d1;
+    font-size: xx-large;
+}
+
+#A3:hover {
+    background-color: #2196f3;
+}
+
+#endCard {
     margin-top: 30vh;
     height: 22vh;
-    background-color: #212529 ;
+    background-color: #212529;
     width: 100%;
 }
 
-#endCardText{
+#endCardText {
     padding-top: 10vh;
 }
