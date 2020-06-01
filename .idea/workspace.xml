@@ -19,17 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed2b7906-b406-489c-a577-161964fc5a4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Algoritmi/mainAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmi/mainAlgoritmi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sicurezza/noteSicurezza.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/noteSicurezza.php" afterDir="false" />
-    </list>
+    <list default="true" id="ed2b7906-b406-489c-a577-161964fc5a4b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,6 +70,18 @@
       <recent name="C:\xampp\htdocs\GeneraDomandeAnalisi1\Analisi1" />
       <recent name="C:\xampp\htdocs\GeneraDomandeAnalisi1\img" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="main.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GeneraDomande/Analisi1/main.php" useBuiltInWebServerPort="true">
@@ -119,53 +130,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="214" width="824" height="691" key="#CLI_Interpreters" timestamp="1590176049703">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="574" y="214" width="824" height="691" key="#CLI_Interpreters/72.27.1848.1053@72.27.1848.1053" timestamp="1590176049703" />
-    <state x="865" y="422" width="251" height="270" key="#Notifications" timestamp="1590176479348">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="865" y="422" width="251" height="270" key="#Notifications/72.27.1848.1053@72.27.1848.1053" timestamp="1590176479348" />
-    <state x="641" y="177" width="700" height="759" key="#PHP" timestamp="1590176050923">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="641" y="177" width="700" height="759" key="#PHP/72.27.1848.1053@72.27.1848.1053" timestamp="1590176050923" />
-    <state x="769" y="317" width="424" height="491" key="FileChooserDialogImpl" timestamp="1590176035807">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="769" y="317" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1590176035807" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1590177440931">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1590177440931" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1590177440931">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1590177440931" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1590177440931">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1590177440931" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1590177440931">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1590177440931" />
-    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1591022217843">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog/72.27.1848.1053/1920.0.1366.768@72.27.1848.1053" timestamp="1591022217843" />
-    <state x="721" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590176285923">
-      <screen x="72" y="27" width="1848" height="1053" />
-    </state>
-    <state x="721" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1590176285923" />
+    <state x="574" y="214" width="824" height="691" key="#CLI_Interpreters" />
+    <state x="574" y="214" width="824" height="691" key="#CLI_Interpreters/72.27.1848.1053@72.27.1848.1053" />
+    <state x="865" y="422" width="251" height="270" key="#Notifications" />
+    <state x="865" y="422" width="251" height="270" key="#Notifications/72.27.1848.1053@72.27.1848.1053" />
+    <state x="641" y="177" width="700" height="759" key="#PHP" />
+    <state x="641" y="177" width="700" height="759" key="#PHP/72.27.1848.1053@72.27.1848.1053" />
+    <state x="769" y="317" width="424" height="491" key="FileChooserDialogImpl" />
+    <state x="769" y="317" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" />
+    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" />
+    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog/72.27.1848.1053/1920.0.1366.768@72.27.1848.1053" />
+    <state x="721" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" />
+    <state x="721" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" />
   </component>
 </project>
