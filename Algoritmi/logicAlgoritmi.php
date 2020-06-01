@@ -1,10 +1,15 @@
 <?php
 session_start();
 //Numero degli array degli argomenti considerando il proimo come zero
-$NumeroArgomenti = 1;
+$NumeroArgomenti = 7;
 $dbStruttureDati = array("");
 $dbGrafi = array("Definizione di Grafo", "Grafo orientato e non orientato", "grafo completo, connesso e componenti", "Rappresentazione di un grafo in memoria", "Grado di un grafo", "Grado di un vertice", "Cammino in un grafo", "Complessità di un grafo", "Grafo sparso e denso", "Grafo Bipartito");
-
+$dbAlberi = array("");
+$dbComplAnal = array("");
+$dbOrdinamento = array("");
+$dbProgDin = array("");
+$dbPNpNpC = array("");
+$dbGreedy = array("");
 
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
 if (isset($_GET['arg'])) {
@@ -20,6 +25,24 @@ if (isset($dbNum)) {
             break;
         case 1:
             $dbCo = $dbGrafi;
+            break;
+        case 2:
+            $dbCo = $dbAlberi;
+            break;
+        case 3:
+            $dbCo = $dbComplAnal;
+            break;
+        case 4:
+            $dbCo = $dbOrdinamento;
+            break;
+        case 5:
+            $dbCo = $dbProgDin;
+            break;
+        case 6:
+            $dbCo = $dbPNpNpC;
+            break;
+        case 7:
+            $dbCo = $dbGreedy;
             break;
 
     }

@@ -73,7 +73,7 @@ if (!isset($_SESSION['NumIndex'])) {
                 </div>
 
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="5"><h4>
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="3"><h4>
                              Cifrari (Crittografia) </h4>
                     </button>
                 </div>
@@ -81,24 +81,24 @@ if (!isset($_SESSION['NumIndex'])) {
             </div>
             <div class="row">
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="3"><h4>
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="4"><h4>
                             Hash, Mac & Key agreement(Crittografia)</h4>
                     </button>
                 </div>
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="4"><h4>
+                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="5"><h4>
                             IpSec, IKE, PKey </h4>
                     </button>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="3"><h4>
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="6"><h4>
                             Digital Certificate, TLS & SSL </h4>
                     </button>
                 </div>
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="4"><h4>
+                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="7"><h4>
                             IDS </h4>
                     </button>
                 </div>
