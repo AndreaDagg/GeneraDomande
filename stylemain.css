@@ -30,6 +30,14 @@ button{
 #A1:hover{
     background-color: rgba(47, 165, 219, 0.86);
 }
+
+#A2{
+    background-color: #3e9abf;
+    font-size: xx-large;
+}
+#A2:hover{
+    background-color: rgba(47, 165, 219, 0.86);
+}
 #endCard{
     margin-top: 30vh;
     height: 22vh;

@@ -68,26 +68,38 @@ if (!isset($_SESSION['NumIndex'])) {
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="2"><h4>
-                            ... </h4>
+                            Alberi </h4>
                     </button>
                 </div>
 
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="5"><h4>
-                            ... </h4>
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="3"><h4>
+                            Complessita' & Analisi </h4>
                     </button>
                 </div>
 
             </div>
             <div class="row">
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="3"><h4>
-                            ... </h4>
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="4"><h4>
+                            Ordinamento </h4>
                     </button>
                 </div>
                 <div class="col">
-                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="4"><h4>
-                            ... </h4>
+                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="5"><h4>
+                            Programmazione Dinamica </h4>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="6"><h4>
+                            Classe P & NP </h4>
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="7"><h4>
+                            Greedy </h4>
                     </button>
                 </div>
             </div>

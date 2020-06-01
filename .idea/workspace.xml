@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2b7906-b406-489c-a577-161964fc5a4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algoritmi/logicAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmi/logicAlgoritmi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmi/mainAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmi/mainAlgoritmi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sicurezza/logicSicurezza.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/logicSicurezza.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sicurezza/mainSicurezza.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/mainSicurezza.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +52,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1RNKYHHzuZZPBZ0WxnqjkAT3ogG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -53,17 +75,15 @@
       <recent name="C:\xampp\htdocs\GeneraDomandeAnalisi1\img" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="main.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GeneraDomande/Analisi1/main.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="JavaScript Debug.main.php" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -87,23 +107,68 @@
       <workItem from="1569502164083" duration="315000" />
       <workItem from="1589794889355" duration="3277000" />
       <workItem from="1589830795099" duration="917000" />
+      <workItem from="1590175773526" duration="1668000" />
+      <workItem from="1590177449081" duration="652000" />
+      <workItem from="1590777480095" duration="346000" />
+      <workItem from="1591020820834" duration="6515000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="214" width="824" height="691" key="#CLI_Interpreters" timestamp="1590176049703">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="574" y="214" width="824" height="691" key="#CLI_Interpreters/72.27.1848.1053@72.27.1848.1053" timestamp="1590176049703" />
+    <state x="865" y="422" width="251" height="270" key="#Notifications" timestamp="1590176479348">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="865" y="422" width="251" height="270" key="#Notifications/72.27.1848.1053@72.27.1848.1053" timestamp="1590176479348" />
+    <state x="641" y="177" width="700" height="759" key="#PHP" timestamp="1590176050923">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="641" y="177" width="700" height="759" key="#PHP/72.27.1848.1053@72.27.1848.1053" timestamp="1590176050923" />
+    <state x="769" y="317" width="424" height="491" key="FileChooserDialogImpl" timestamp="1590176035807">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="769" y="317" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1590176035807" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1590177440931">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1590177440931" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1590177440931">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1590177440931" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1590177440931">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1590177440931" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1590177440931">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1590177440931" />
+    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1591022217843">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog/72.27.1848.1053/1920.0.1366.768@72.27.1848.1053" timestamp="1591022217843" />
+    <state x="721" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590176285923">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="721" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1590176285923" />
   </component>
 </project>
