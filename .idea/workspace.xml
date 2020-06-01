@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2b7906-b406-489c-a577-161964fc5a4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Generatore Analisi 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Generatore Analisi 1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmi/logicAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmi/logicAlgoritmi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmi/mainAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmi/mainAlgoritmi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmi/noteAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmi/noteAlgoritmi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmi/styleAlgoritmi.css" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmi/styleAlgoritmi.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analisi1/img/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Analisi1/img/16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analisi1/logic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Analisi1/logic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analisi1/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Analisi1/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analisi1/note.php" beforeDir="false" afterPath="$PROJECT_DIR$/Analisi1/note.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analisi1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Analisi1/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sicurezza/logicSicurezza.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/logicSicurezza.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sicurezza/mainSicurezza.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/mainSicurezza.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sicurezza/noteSicurezza.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/noteSicurezza.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sicurezza/styleSicurezza.css" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/styleSicurezza.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainChoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainChoice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylemain.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylemain.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +68,12 @@
     <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GeneraDomande\Algoritmi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\GeneraDomandeAnalisi1\Analisi1" />
       <recent name="C:\xampp\htdocs\GeneraDomandeAnalisi1\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\GeneraDomande\Algoritmi" />
     </key>
   </component>
   <component name="RunManager">
@@ -105,7 +111,7 @@
       <workItem from="1590175773526" duration="1668000" />
       <workItem from="1590177449081" duration="652000" />
       <workItem from="1590777480095" duration="346000" />
-      <workItem from="1591020820834" duration="1272000" />
+      <workItem from="1591020820834" duration="2136000" />
     </task>
     <servers />
   </component>
@@ -157,6 +163,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1590177440931" />
+    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1591022217843">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog/72.27.1848.1053/1920.0.1366.768@72.27.1848.1053" timestamp="1591022217843" />
     <state x="721" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590176285923">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
