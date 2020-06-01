@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['NumIndex'])) {
-    header("Location: noteAlgoritmi.php");
+    header("Location: noteSicurezza.php");
 } else {
     $List = $_SESSION['NumIndex'];
 }
@@ -51,7 +51,7 @@ if (!isset($_SESSION['NumIndex'])) {
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>-->
 <div id="argF">
-    <form action="logicAlgoritmi.php" method="get">
+    <form action="logicSicurezza.php" method="get">
         <div class="container">
             <div class="row">
                 <div class="col">

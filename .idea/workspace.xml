@@ -24,8 +24,6 @@
       <change beforePath="$PROJECT_DIR$/Sicurezza/logicSicurezza.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/logicSicurezza.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sicurezza/mainSicurezza.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/mainSicurezza.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sicurezza/noteSicurezza.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/noteSicurezza.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sicurezza/styleSicurezza.css" beforeDir="false" afterPath="$PROJECT_DIR$/Sicurezza/styleSicurezza.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainChoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainChoice.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
       <workItem from="1590175773526" duration="1668000" />
       <workItem from="1590177449081" duration="652000" />
       <workItem from="1590777480095" duration="346000" />
-      <workItem from="1591020820834" duration="2136000" />
+      <workItem from="1591020820834" duration="3271000" />
     </task>
     <servers />
   </component>

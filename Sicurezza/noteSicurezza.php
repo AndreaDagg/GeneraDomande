@@ -7,7 +7,7 @@ session_start();
 
 $_SESSION['NumIndex'] = 0;
 $NotePass = array("");
-$NoteCos = array("Strutture Dati" => array("..."), "Grafi" => array("..."), "..." => array("..."), "..." => array("..."));
+$NoteCos = array("Iformation Security" => array("..."), "Attacchi" => array("..."), "..." => array("..."), "..." => array("..."));
 $_SESSION['NumIndex'] = $NoteCos;
 
 print_r($_SESSION['NumIndex']);
