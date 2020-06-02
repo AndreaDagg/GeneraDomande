@@ -4,8 +4,7 @@ session_start();
 //Numero degli array degli argomenti considerando il proimo come zero
 $NumeroArgomenti = 7;
 $dbInformSec = array("Obiettivi Information Security", "Proprieta' sistema informatico sicuro", "Common Attacks", "A cosa serve la crittografia");
-$dbAttack = array("Tipi di Attacchi", "Attacchi Passivi", "Attacchi Attivi", "Reply, Modifica ed Injection", "Spoofing / Impersonation Attack (IP Spoofing)", "Flooding Attack", "Session Hijaction","Panoramica ARP", "Arp Poisoning / Spoofing",
-    "MAC Flooding(Dos)");
+$dbAttack = array("Tipi di Attacchi", "Attacchi Passivi", "Attacchi Attivi", "Reply, Modifica ed Injection", "Spoofing / Impersonation Attack (IP Spoofing)", "Flooding Attack", "Session Hijaction", "Panoramica ARP", "Arp Poisoning / Spoofing", "MAC Flooding(Dos)", "Contromisure ArpSpoofing", "Contromisure MacFlooding", "Funzionalita' IP Protocol", "Ip Attack", "Ip Spoofing", "IP Sniffing", "Valenza Attacchi", "Dos Attack", "Ip Fragmantation Attack", "Firma di un pacchetto", "Funzionalita' TCP", "SYN Flooding", "TCP/IP spoofing (S.N.)", "Contromisure Tcp/Ip Spoofing", "TCP Session Hijaking", "IP Tracebar", "Differenza MITM & Spoofing Attack", "Sistema sicuro contro MITM", "Come accede ad una reta l'avversasrio?");
 $dbIntroCritt = array("");
 $dbCifrari = array("");
 $dbH_M_K = array("");
