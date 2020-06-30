@@ -51,4 +51,4 @@ if(isset($dbNum)){
 
 $r = rand(0, count($dbCo) - 1);
 $_SESSION ['result'] = json_encode($dbCo[$r]);
-header('Location: mainAlgoritmi.php');
+header('Location: mathmain.php');

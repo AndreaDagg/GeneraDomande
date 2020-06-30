@@ -53,6 +53,15 @@ button {
     background-color: #2196f3;
 }
 
+#A4 {
+    background-color: #039be5;
+    font-size: xx-large;
+}
+
+#A4:hover {
+    background-color: #2196f3;
+}
+
 #endCard {
     margin-top: 30vh;
     height: 22vh;
@@ -62,4 +71,9 @@ button {
 
 #endCardText {
     padding-top: 10vh;
+}
+
+#endVersion {
+    color: grey;
+    font-size: 15px;
 }
