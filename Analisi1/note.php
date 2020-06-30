@@ -11,5 +11,5 @@ $_SESSION['NumIndex'] = $NoteCos;
 
 print_r($_SESSION['NumIndex']);
 
-header("location: main.php ");
+header("location: mathmain.php ");
 ?>

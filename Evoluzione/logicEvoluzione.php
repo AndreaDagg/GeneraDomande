@@ -4,6 +4,8 @@ session_start();
 //Numero degli array degli argomenti considerando il proimo come zero
 $NumeroArgomenti = 0;
 
+//TODO: Definire gli array con gli argomenti
+
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
 if (isset($_GET['arg'])) {
     $dbNum = $_GET['arg'];

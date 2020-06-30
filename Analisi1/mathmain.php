@@ -13,7 +13,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="mathstyle.css"
     <meta charset="UTF-8">
     <link rel="icon" href="img/16.png" type="image/jpg"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -38,7 +38,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
         <div class="alert alert-light" role="article" id="alert">
         </div>
     <?php } ?>
-    <form action="logic.php" id="genrator">
+    <form action="mathlogic.php" id="genrator">
         <button id="btnGenDom" type="submit" class="btn btn-dark btn-lg btn-block"><h2
                     style="font-family: 'Comic Sans MS'; ">Genera Domanda</h2></button>
     </form>
@@ -52,7 +52,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>-->
 <div id="argF">
-    <form action="logic.php" method="get">
+    <form action="mathlogic.php" method="get">
         <div class="container">
             <div class="row">
                 <div class="col">
