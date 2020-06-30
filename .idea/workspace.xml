@@ -21,13 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ed2b7906-b406-489c-a577-161964fc5a4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analisi1/logic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Analisi1/mathlogic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analisi1/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Analisi1/mathmain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analisi1/note.php" beforeDir="false" afterPath="$PROJECT_DIR$/Analisi1/note.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analisi1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Analisi1/mathstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evoluzione/logicEvoluzione.php" beforeDir="false" afterPath="$PROJECT_DIR$/Evoluzione/logicEvoluzione.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evoluzione/mainEvoluzione.php" beforeDir="false" afterPath="$PROJECT_DIR$/Evoluzione/mainEvoluzione.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainChoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainChoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylemain.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylemain.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GeneraDomande" />
       <recent name="C:\xampp\htdocs\GeneraDomandeAnalisi1\Analisi1" />
       <recent name="C:\xampp\htdocs\GeneraDomandeAnalisi1\img" />
     </key>
@@ -126,7 +122,7 @@
       <workItem from="1591724439337" duration="659000" />
       <workItem from="1591808080092" duration="904000" />
       <workItem from="1592311935191" duration="1322000" />
-      <workItem from="1593546508457" duration="2290000" />
+      <workItem from="1593546508457" duration="3036000" />
     </task>
     <servers />
   </component>

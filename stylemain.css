@@ -72,3 +72,8 @@ button {
 #endCardText {
     padding-top: 10vh;
 }
+
+#endVersion {
+    color: grey;
+    font-size: 15px;
+}
