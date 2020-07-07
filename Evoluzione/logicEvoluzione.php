@@ -4,11 +4,11 @@ session_start();
 //Numero degli array degli argomenti considerando il proimo come zero
 $NumeroArgomenti = 7;
 
-$dbLegacy = Array("Legacy");
-$dbMaintenance = Array("Maintenance");
-$dbRe_Eng = Array("Re-Eng");
-$dbImpact = Array("Imapact");
-$dbTraceability = Array("Tracciabilita'");
+$dbLegacy = Array("Casa e' un Legacy Systems?","Cosa significa Business Critical?","Perche' e' rischioso fare lo shutting down di un L.Sys.?","Componenti di un L.Sys.","Legacy Dilemma","Strategie del Legacy Dilemma","Business Value System quality","Forward enginering");
+$dbMaintenance = Array("Quali tipi di manutenzione esistono?","Mauntenzione correttiva","Manutenzione evolutiva","Manutenzione adattiva","Modello che descrive la manutenzione","Costi della manutenzione","Leggi di Lehman","Strategie di cambiamento","Processo di manutenzione","Change request","Impact analysis","Maintenance Prediction");
+$dbRe_Eng = Array("Obiettivi del Re-Eng","Perche' fare Re-Eng","Dove fare Re-eng","Processo di Re-Eng","Surce code traslation","Reverse enginering","Restructoring","Data-Re-Eng","Costi/Vantaggi e Svantaggi del Re-Eng");
+$dbImpact = Array("Cos'e' Imapact Analysis","Processo dell'Imp.Analysis","Quali sono i set dell'impact anbalysis","Come verifico la stima dell'Impact Analysis");
+$dbTraceability = Array("Cosa fa la Tracciabilita'","Quali sono i diversi tipi di Trac.","Come recupero dei link di Trac.","Information Retrival","Processo di recupero dei link di tracciabilita'","Matrice dei documenti","Vector Space Model","Ranked List e come la taglio","Valutazioen del recupero dei link IR");
 $dbQuality = Array("Qualita'");
 $dbRefactoring = Array("Refactoring");
 $dbRegression = Array("Regressione");
