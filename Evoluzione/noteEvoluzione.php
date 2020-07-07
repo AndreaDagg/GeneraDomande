@@ -7,8 +7,8 @@ session_start();
 
 $_SESSION['NumIndex'] = 0;
 $NotePass = array("");
-$NoteCos = array("Iformation Security" => array("..."), "Attacchi" => array("..."), "Crittografia Intro" => array("..."), "Cifrari" => array("..."), "Hash, Mac & KeyAgr" => array("..."),
-    "OpSec, Ike, PKey" => array("..."), "Digital Cert, TLS & SSL" => array("..."), "IDS" => array("..."));
+$NoteCos = array("Legacy Systems" => array("..."), "Maintenance" => array("..."), "Re-Enginering" => array("..."), "Impact Analysis "
+=> array("..."), "Traceability" => array("..."), "Software Quality" => array("..."), "Refactoring" => array("..."), "Regression Test" => array("..."));
 $_SESSION['NumIndex'] = $NoteCos;
 
 print_r($_SESSION['NumIndex']);
@@ -16,4 +16,3 @@ print_r($_SESSION['NumIndex']);
 header("location: mainEvoluzione.php ");
 
 
-//TODO: cambiare gli argomenti

@@ -57,25 +57,25 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="0"><h4>
-                            ... </h4>
+                            Legacy Systems </h4>
                     </button>
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="1">
-                        <h4> ... </h4>
+                        <h4> Maintenance </h4>
                     </button>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="2"><h4>
-                            ... </h4>
+                            Re-Enginering </h4>
                     </button>
                 </div>
 
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="3"><h4>
-                            ... </h4>
+                            Impact Analysis </h4>
                     </button>
                 </div>
 
@@ -83,24 +83,24 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="4"><h4>
-                            ... </h4>
+                            Traceability </h4>
                     </button>
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="5"><h4>
-                            ... </h4>
+                            Software Quality </h4>
                     </button>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="6"><h4>
-                            ... </h4>
+                            Refactoring </h4>
                     </button>
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="7"><h4>
-                            ... </h4>
+                            Regression Test </h4>
                     </button>
                 </div>
             </div>
@@ -186,6 +186,6 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
 </html>
 
 <?php
-//TODO: Aggiustare icona path
-//TODO: Inserire argomenti nei bottoni
+
+
 ?>

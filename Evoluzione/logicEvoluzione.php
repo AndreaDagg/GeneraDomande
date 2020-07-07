@@ -2,10 +2,16 @@
 
 session_start();
 //Numero degli array degli argomenti considerando il proimo come zero
-$NumeroArgomenti = 0;
+$NumeroArgomenti = 7;
 
-//TODO: Definire gli array con gli argomenti
-
+$dbLegacy = Array("Legacy");
+$dbMaintenance = Array("Maintenance");
+$dbRe_Eng = Array("Re-Eng");
+$dbImpact = Array("Imapact");
+$dbTraceability = Array("Tracciabilita'");
+$dbQuality = Array("Qualita'");
+$dbRefactoring = Array("Refactoring");
+$dbRegression = Array("Regressione");
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
 if (isset($_GET['arg'])) {
     $dbNum = $_GET['arg'];
@@ -16,28 +22,28 @@ if (isset($_GET['arg'])) {
 if (isset($dbNum)) {
     switch ($dbNum) {
         case 0:
-            $dbCo = $dbInformSec;
+            $dbCo = $dbLegacy;
             break;
         case 1:
-            $dbCo = $dbAttack;
+            $dbCo = $dbMaintenance;
             break;
         case 2:
-            $dbCo = $dbIntroCritt;
+            $dbCo = $dbRe_Eng;
             break;
         case 3:
-            $dbCo = $dbCifrari;
+            $dbCo = $dbImpact;
             break;
         case 4:
-            $dbCo = $dbH_M_K;
+            $dbCo = $dbTraceability;
             break;
         case 5:
-            $dbCo = $dbIP_I_P;
+            $dbCo = $dbQuality;
             break;
         case 6:
-            $dbCo = $dbCertificate_T_S;
+            $dbCo = $dbRefactoring;
             break;
         case 7:
-            $dbCo = $dbIDS;
+            $dbCo = $dbRegression;
             break;
 
     }
