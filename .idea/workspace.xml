@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2b7906-b406-489c-a577-161964fc5a4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Calcolo_Numerico/logicCalcolo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calcolo_Numerico/mainCalcolo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calcolo_Numerico/noteCalcolo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calcolo_Numerico/styleCalcolo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evoluzione/logicEvoluzione.php" beforeDir="false" afterPath="$PROJECT_DIR$/Evoluzione/logicEvoluzione.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainChoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainChoice.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +61,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Evoluzione" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GeneraDomande" />
+      <recent name="C:\xampp\htdocs\GeneraDomande\Evoluzione" />
+      <recent name="C:\xampp\htdocs\GeneraDomande\Algoritmi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\GeneraDomande" />
       <recent name="C:\xampp\htdocs\GeneraDomandeAnalisi1\Analisi1" />
       <recent name="C:\xampp\htdocs\GeneraDomandeAnalisi1\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\GeneraDomande\Evoluzione" />
-      <recent name="C:\xampp\htdocs\GeneraDomande\Algoritmi" />
     </key>
   </component>
   <component name="RunManager">
@@ -85,6 +91,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -122,11 +129,13 @@
       <workItem from="1591808080092" duration="904000" />
       <workItem from="1592311935191" duration="1322000" />
       <workItem from="1593546508457" duration="3036000" />
+      <workItem from="1611942513538" duration="1186000" />
+      <workItem from="1612039433445" duration="1957000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -139,30 +148,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="574" y="214" width="824" height="691" key="#CLI_Interpreters" timestamp="1593548718970" />
-    <state x="574" y="214" width="824" height="691" key="#CLI_Interpreters/72.27.1848.1053@72.27.1848.1053" timestamp="1593548718972" />
-    <state x="865" y="422" width="251" height="270" key="#Notifications" timestamp="1593548718972" />
-    <state x="865" y="422" width="251" height="270" key="#Notifications/72.27.1848.1053@72.27.1848.1053" timestamp="1593548718972" />
-    <state x="641" y="177" width="700" height="759" key="#PHP" timestamp="1593548718972" />
-    <state x="641" y="177" width="700" height="759" key="#PHP/72.27.1848.1053@72.27.1848.1053" timestamp="1593548718972" />
-    <state x="769" y="317" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593548718972" />
-    <state x="769" y="317" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1593548718972" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1593548718972" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1593548718972" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1593548718972" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1593548718972" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1593548718972" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1593548718972" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1593548718972" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1593548718972" />
-    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1593548842158">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="791" y="479" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593548842158" />
-    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog/72.27.1848.1053/1920.0.1366.768@72.27.1848.1053" timestamp="1593548718972" />
-    <state x="721" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593548718972" />
-    <state x="721" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1593548718972" />
   </component>
 </project>
