@@ -22,6 +22,7 @@
     <list default="true" id="ed2b7906-b406-489c-a577-161964fc5a4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calcolo_Numerico/logicCalcolo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Calcolo_Numerico/logicCalcolo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calcolo_Numerico/mainCalcolo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Calcolo_Numerico/mainCalcolo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,8 @@
       <workItem from="1592311935191" duration="1322000" />
       <workItem from="1593546508457" duration="3036000" />
       <workItem from="1611942513538" duration="1186000" />
-      <workItem from="1612039433445" duration="2679000" />
+      <workItem from="1612039433445" duration="2970000" />
+      <workItem from="1612473745005" duration="520000" />
     </task>
     <servers />
   </component>
