@@ -88,7 +88,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="5"><h4>
-                            ... </h4>
+                            Sistemi non lineari </h4>
                     </button>
                 </div>
             </div>
