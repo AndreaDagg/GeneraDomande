@@ -7,9 +7,9 @@ $dbGrafi = array("Definizione di Grafo", "Grafo orientato e non orientato", "gra
 $dbAlberi = array("");
 $dbComplAnal = array("");
 $dbOrdinamento = array("");
-$dbProgDin = array("");
+$dbProgDin = array("divide et impera e DP","ZAINO & come ricostruire la soluzione & Alg-C","LCS & risoctruzione soluzione & Alg-C","Memoization","Prog Dinamica");
 $dbPNpNpC = array("");
-$dbGreedy = array("");
+$dbGreedy = array("Greedy","Scheduling Intervalli senza peso","Problema del resto","Zaino Frazionario");
 
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
 if (isset($_GET['arg'])) {
