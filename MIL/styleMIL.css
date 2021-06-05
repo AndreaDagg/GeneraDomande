@@ -1,0 +1,74 @@
+#argF{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 10vh;
+
+}
+
+#box{
+    margin-top: 20px;
+}
+#alert {
+    border-width: 3px;
+    border-color: rgba(0, 123, 255, 0.87);
+
+}
+#boxText{
+    color: rgba(0, 0, 0, 0.76);
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+#title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 510px;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
+
+
+}
+#h1Title {
+    font-family: "Comic Sans MS";
+}
+
+#btnARG{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 100px;
+}
+#btnGenDom{
+    margin-bottom: 20px;
+    height: 100px;
+}
+body{
+    background-color:#ffffff;
+    font-size: xx-large;
+}
+#close{
+    margin-top: 6vh;
+
+    font-size: xx-large;
+}
+
+h4{
+    font-family: "Comic Sans MS";
+}
+#btnSe{
+
+    margin-bottom: 5px;
+    width: 300px;
+    height: 100px;
+}
+
+#endCard{
+    margin-top: 30vh;
+    height: 22vh;
+    background-color: #212529 ;
+    width: 100%;
+}
+
+#endCardText{
+ padding-top: 10vh;
+}
