@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2b7906-b406-489c-a577-161964fc5a4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MIL/logicMIL.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MIL/mainMIL.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MIL/noteMIL.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MIL/styleMIL.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstChoice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmi/logicAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmi/logicAlgoritmi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmi/mainAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmi/mainAlgoritmi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoritmi/noteAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Algoritmi/noteAlgoritmi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainChoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainChoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +48,9 @@
       </map>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1RNKYHHzuZZPBZ0WxnqjkAT3ogG" />
   <component name="ProjectViewState">
@@ -66,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MIL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -147,6 +144,7 @@
       <workItem from="1615408313445" duration="811000" />
       <workItem from="1622836455636" duration="1106000" />
       <workItem from="1622918052206" duration="371000" />
+      <workItem from="1642093952205" duration="1920000" />
     </task>
     <servers />
   </component>
@@ -163,6 +161,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -5,6 +5,6 @@ if (!isset($_SESSION['NumIndex'])) {
 } else {
     $_SESSION['NumIndex'] = null;
 }
-header("Location: mainChoice.html");
+header("Location: firstChoice.php");
 
 ?>
