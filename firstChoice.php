@@ -68,7 +68,7 @@ if (isset($_GET['anno'])) {
                     style=" font-family: 'Comic Sans MS'; color: lightgrey"> GitHub </h5></a>
     </div>
     <div class="d-flex justify-content-center" id="endVersion">
-        <p> V. 1.1.5 </p>
+        <p> V. 2.0.0 </p>
     </div>
 </div>
 
