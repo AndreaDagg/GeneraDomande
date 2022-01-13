@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
-    header("Location: note.php");
+    header("Location: noteCF.php");
 } else {
     $List = $_SESSION['NumIndex'];
     $_SESSION['NumIndex'] = 0;
@@ -23,7 +23,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
 </head>
 <body>
 <div id="title" class="container">
-    <h1 id="h1Title"> Genera domande Analisi 1 </h1>
+    <h1 id="h1Title"> Genera domande Computer forensics </h1>
 </div>
 <div class="container" id="box">
     <?php if (isset($_SESSION['result'])) { ?>
@@ -38,7 +38,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
         <div class="alert alert-light" role="article" id="alert">
         </div>
     <?php } ?>
-    <form action="mathlogic.php" id="genrator">
+    <form action="logicCF.php" id="genrator">
         <button id="btnGenDom" type="submit" class="btn btn-dark btn-lg btn-block"><h2
                 style="font-family: 'Comic Sans MS'; ">Genera Domanda</h2></button>
     </form>
@@ -52,24 +52,24 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>-->
 <div id="argF">
-    <form action="mathlogic.php" method="get">
+    <form action="logicCF.php" method="get">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="0"><h4>
-                            Limiti</h4>
+                            Acquisizione del dato</h4>
                     </button>
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="1">
-                        <h4> Successioni </h4>
+                        <h4> Media, partizioni e volumi </h4>
                     </button>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="2"><h4>
-                            Derivate</h4>
+                            File System</h4>
                     </button>
                 </div>
                 <!-- <div class="col">
@@ -80,7 +80,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
 
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="5"><h4>Eq.
-                            Differenziali</h4>
+                            Analisi  di un sistema windows</h4>
                     </button>
                 </div>
 
@@ -88,12 +88,12 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="3"><h4>
-                            Serie</h4>
+                            Mobile Forensic</h4>
                     </button>
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="4"><h4>
-                            Integrali</h4>
+                            Image forensic</h4>
                     </button>
                 </div>
             </div>
