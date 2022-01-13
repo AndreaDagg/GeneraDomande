@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2b7906-b406-489c-a577-161964fc5a4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magistrale_esami/Computer_Forensics/logicCF.php" beforeDir="false" afterPath="$PROJECT_DIR$/Magistrale_esami/Computer_Forensics/logicCF.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magistrale_esami/Computer_Forensics/mainCF.php" beforeDir="false" afterPath="$PROJECT_DIR$/Magistrale_esami/Computer_Forensics/mainCF.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magistrale_esami/Computer_Forensics/noteCF.php" beforeDir="false" afterPath="$PROJECT_DIR$/Magistrale_esami/Computer_Forensics/noteCF.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainChoiceMagistrale.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainChoiceMagistrale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triennale_esami/Algoritmi/logicAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Triennale_esami/Algoritmi/logicAlgoritmi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triennale_esami/Algoritmi/mainAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Triennale_esami/Algoritmi/mainAlgoritmi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triennale_esami/Algoritmi/noteAlgoritmi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Triennale_esami/Algoritmi/noteAlgoritmi.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +147,7 @@
       <workItem from="1622836455636" duration="1106000" />
       <workItem from="1622918052206" duration="371000" />
       <workItem from="1642093952205" duration="2730000" />
-      <workItem from="1642107879622" duration="919000" />
+      <workItem from="1642107879622" duration="1257000" />
     </task>
     <servers />
   </component>

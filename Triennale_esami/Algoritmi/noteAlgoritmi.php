@@ -13,5 +13,5 @@ $_SESSION['NumIndex'] = $NoteCos;
 
 print_r($_SESSION['NumIndex']);
 
-header("location: mainMIL.php ");
+header("location: mainAlgoritmi.php ");
 ?>

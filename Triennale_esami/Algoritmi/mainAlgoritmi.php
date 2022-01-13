@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
-    header("Location: noteMIL.php");
+    header("Location: noteAlgoritmi.php");
 } else {
     $List = $_SESSION['NumIndex'];
     //annulla il valore dell'array nella sessione
@@ -153,7 +153,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
                 </button>
             </div>
         </form>
-        <form id="close" action="../index.php">
+        <form id="close" action="../../index.php">
             <div class="col">
                 <button id="btnSe" type="submit" class="btn btn-outline-danger">
                     <i class="material-icons">
