@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$dbAcqui = array("Quali sono le modalità di acquisizione di un dato?","Quali sono i vantaggi del sequestro?","Quando si ricorre all’isolamento di un dispositivo mobile?","Quali sono le tecniche di isolamento?","Quali sono i requisiti della duplicazione?","Quali sono i metodi di validazione di una duplicazione?","Come assicuriamo la conformità di una duplicazione?","Quali sono le problematiche legate ad un sistema raid?","Quali sono le caratteristiche di una intercettazione?","Quando è possibile utilizzare una porta monitor?","E’ possibile utilizzare nell’intercettazione l’attacco “Man In The Middle”?","Quali sono i protocolli da disabilitare nella creazione di una sonda? Perché?");
+$dbAcqui = array("Quali sono le modalita' di acquisizione di un dato?","Quali sono i vantaggi del sequestro?","Quando si ricorre all’isolamento di un dispositivo mobile?","Quali sono le tecniche di isolamento?","Quali sono i requisiti della duplicazione?","Quali sono i metodi di validazione di una duplicazione?","Come assicuriamo la conformita' di una duplicazione?","Quali sono le problematiche legate ad un sistema raid?","Quali sono le caratteristiche di una intercettazione?","Quando e' possibile utilizzare una porta monitor?","E’ possibile utilizzare nell’intercettazione l’attacco “Man In The Middle”?","Quali sono i protocolli da disabilitare nella creazione di una sonda? Perche'?");
 $dbMedia = array("Come è organizzato un HD?");
 $dbFileSys = array("");
 $dbAnalWin = array("");

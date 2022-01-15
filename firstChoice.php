@@ -1,11 +1,11 @@
 <?php
 if (isset($_GET['anno'])) {
     echo "isset";
-   if ($_GET['anno'] == 2016){
-       header("Location: mainChoice.html");
-   } else {
-       header("Location: mainChoiceMagistrale.html");
-   }
+    if ($_GET['anno'] == 2016) {
+        header("Location: mainChoice.html");
+    } else {
+        header("Location: mainChoiceMagistrale.html");
+    }
 } else {
     echo "Scegli un opzione";
 }
@@ -25,35 +25,40 @@ if (isset($_GET['anno'])) {
 <body>
 
 <section>
-    <div class="container  justify-content-center" id="buttonCont">
+    <div class="container  " id="buttonCont">
         <form action="firstChoice.php" method="get">
-            <button id="L" type="submit" class="btn btn-secondary" name="anno" value="2020">Magistrale</button>
-            <button id="R" type="submit" class="btn btn-secondary" name="anno" value="2016">Triennale</button>
+            <div class="row justify-content-center">
+                <button id="L" type="submit" class="btn btn-secondary" name="anno" value="2020">Magistrale</button>
+            </div>
+            <div class="row justify-content-center">
+                <button id="R" type="submit" class="btn btn-secondary" name="anno" value="2016">Triennale</button>
+            </div>
         </form>
+
     </div>
 </section>
 
 <style>
-    #buttonCont{
+    #buttonCont {
         min-height: 48vh; /*Il footer è alto 22 con padding 30 quindi 100 -52*/
 
     }
-    #R{
+
+    #R {
         font-size: x-large;
         position: relative;
-        margin-top: 24vh;
         height: 20vh;
         width: fit-content;
-        min-width: 50vh;
-        float: right;
+        min-width: 40vh;
+        /*float: right;*/
     }
+
     #L {
         font-size: x-large;
         position: relative;
-        margin-top: 24vh;
         height: 20vh;
         width: fit-content;
-        min-width: 50vh;
+        min-width: 40vh;
 
     }
 
