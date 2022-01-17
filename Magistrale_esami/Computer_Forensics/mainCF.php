@@ -107,7 +107,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="7"><h4>
-                            --- </h4>
+                            Carte di credito </h4>
                     </button>
                 </div>
             </div>
