@@ -99,6 +99,19 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="6"><h4>
+                            Identità e Reati</h4>
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="7"><h4>
+                            --- </h4>
+                    </button>
+                </div>
+            </div>
+
         </div>
     </form>
 

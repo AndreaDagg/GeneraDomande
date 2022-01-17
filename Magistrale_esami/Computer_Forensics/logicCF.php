@@ -6,13 +6,15 @@ $dbMedia = array("Come è organizzato un HD?");
 $dbFileSys = array("");
 $dbAnalWin = array("");
 $dbMobile = array("");
-$dbImage = ("");
+$dbImage = array("");
+$dbIdeReati = array("Cosa compone un identità fisica e cosa quella digitale?","ID digitale cosa permette di fare? Dove la trovo?","Come distinguere i reati? E le pene?","Quale procura è compentente dei reati informatici?","Reato informaco per eccellenza?","Quali leggi identificano i reati informatici?","Addescamento online reato da quando?","Come distinguo i reati informatici?");
+$PROXXXXX = array("");
 
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
 if (isset($_GET['arg'])) {
     $dbNum = $_GET['arg'];
 } else {
-    $dbNum = rand(0, 5);
+    $dbNum = rand(0, 7);
 }
 
 if (isset($dbNum)) {
@@ -37,6 +39,12 @@ if (isset($dbNum)) {
             break;
         case 5:
             $dbCo = $dbImage;
+            break;
+        case 6:
+            $dbCo = $dbIdeReati;
+            break;
+        case 7:
+            $dbCo = $PROXXXXX;
             break;
     }
 }
