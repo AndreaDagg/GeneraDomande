@@ -9,12 +9,12 @@ $dbMobile = array("");
 $dbImage = array("");
 $dbIdeReati = array("Cosa compone un identità fisica e cosa quella digitale?","ID digitale cosa permette di fare? Dove la trovo?","Come distinguere i reati? E le pene?","Quale procura è compentente dei reati informatici?","Reato informaco per eccellenza?","Quali leggi identificano i reati informatici?","Addescamento online reato da quando?","Come distinguo i reati informatici?");
 $dbCarte = array("Cose'è e cosa compone una carta di credito?","Cos'è lo skimmer e phishing? Cosa li accomuna alle carte di credito?","clonazione di una carta?","cos'e' il criptolocker");
-
+$dbPed = array("Come si impedisce di vedere un sito illegale?","Leggi Ped","Leggi pirateria audiovisiva");
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
 if (isset($_GET['arg'])) {
     $dbNum = $_GET['arg'];
 } else {
-    $dbNum = rand(0, 7);
+    $dbNum = rand(0, 8);
 }
 
 if (isset($dbNum)) {
@@ -45,6 +45,9 @@ if (isset($dbNum)) {
             break;
         case 7:
             $dbCo = $dbCarte;
+            break;
+        case 8:
+            $dbCo = $dbPed;
             break;
     }
 }
