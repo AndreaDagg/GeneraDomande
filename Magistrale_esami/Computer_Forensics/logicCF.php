@@ -11,7 +11,7 @@ $dbIdeReati = array("Cosa compone un identità fisica e cosa quella digitale?","
 $dbCarte = array("Cose'è e cosa compone una carta di credito?","Cos'è lo skimmer e phishing? Cosa li accomuna alle carte di credito?","clonazione di una carta?","cos'e' il criptolocker");
 
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
-if (isset($_GET['arg'])) {gt
+if (isset($_GET['arg'])) {
     $dbNum = $_GET['arg'];
 } else {
     $dbNum = rand(0, 7);
