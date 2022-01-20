@@ -50,6 +50,9 @@ if (isset($dbNum)) {
         case 8:
             $dbCo = $dbPed;
             break;
+        case 9:
+            $dbCo = $dbDir;
+            break;
     }
 }
 
