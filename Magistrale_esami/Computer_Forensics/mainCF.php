@@ -118,11 +118,11 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
                            Ped</h4>
                     </button>
                 </div>
-                <!--<div class="col">
+                <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="9"><h4>
-                            - - - </h4>
+                            Truffe DirAut </h4>
                     </button>
-                </div>-->
+                </div>
             </div>
 
         </div>
