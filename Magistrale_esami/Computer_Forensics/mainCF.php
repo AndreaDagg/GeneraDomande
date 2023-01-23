@@ -112,6 +112,19 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="8"><h4>
+                           Ped</h4>
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="9"><h4>
+                            Truffe DirAut </h4>
+                    </button>
+                </div>
+            </div>
+
         </div>
     </form>
 
