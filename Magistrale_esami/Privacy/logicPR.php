@@ -1,15 +1,15 @@
 <?php
 
 session_start();
-$dbGDPR = array("GDPR", "Date Pubblicazione ed entrata in vigore GDPR","Da cosa protegge i dati personali il GDPR?", "Nuove Terminologie e figure introduce il GDPR","Principio di Accountability","Chi è tenuto a provare l'accountability?","Principio di Compliance","Principio R.I.D");
+$dbGDPR = array("GDPR", "Date Pubblicazione ed entrata in vigore GDPR","Da cosa protegge i dati personali il GDPR?", "Nuove Terminologie e figure introduce il GDPR","Principio di Accountability","Chi è tenuto a provare l'accountability?","Principio di Compliance","Principio R.I.D",);
 $dbIdentita = array("Identita' anagrafica e digitale", "Cosa formano le identita digitali ed anagrafiche", "Quale delle due tipologie di intentita si puo' rubare facilemnte?");
 $dbDatoPersonale = array("Cos'e' un dato perosnale?","Identificare ed essere Identificati","Quali informazioni online rendono identificabile una persona", "Cos'e' il trattamento dei dati personali?","In quale D.Leg si introducono i dati sensibili?","Quali dati personli richiedono il consenso esplicito dell'interessato?","Ciclo del trattamento dei dait personali","Dati Biometrici, Genetici e Particolari","Casi in cui i dati pesonali possono essere trattati senza il consenso esplicito","Quali dati vengono trattati da un'alzienda?");
-
+$dbCookieAndData = array("CyberEducazione", "Sicurezza del dato", "Coockie", "Differenza tra cookie tecnico, anlaitico e di terzi", "Data Breach");
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
 if (isset($_GET['arg'])) {
     $dbNum = $_GET['arg'];
 } else {
-    $dbNum = rand(0, 2);
+    $dbNum = rand(0, 3);
 }
 
 if (isset($dbNum)) {
@@ -21,13 +21,13 @@ if (isset($dbNum)) {
             $dbCo = $dbIdentita;
             break;
         case 2:
-            $dbCo = $dbFileSys;
+            $dbCo = $dbDatoPersonale;
             break;
         /*case 3:
             $dbCo = $dbDerivateII;
             break;*/
         case 3:
-            $dbCo = $dbAnalWin;
+            $dbCo = $dbCookieAndData;
             break;
         case 4:
             $dbCo = $dbMobile;
