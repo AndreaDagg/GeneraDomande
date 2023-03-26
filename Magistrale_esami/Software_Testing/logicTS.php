@@ -15,7 +15,12 @@ $dbTESTING = array(
     "Gestione deio fallimenti - Fault handling",
     "Cosa succede se ho fatto integrazione ma comunque mi manca un pezzo? ",
     "BottomUp - TopDown - Sandwitch Rovesciato e Bingbang",
-    "Generazione automatica di casi di test e dell'oracolo perche' e' utile"
+    "Generazione automatica di casi di test e dell'oracolo perche' e' utile",
+    "Testing and inspection",
+    "Cosa indica il numero di bug",
+    "Perche' il testing scala",
+    "Testing metodo e funzioni difficoltà",
+
 );
 $dbBLACKandWHITE = array(
 
@@ -33,7 +38,29 @@ $dbBLACKandWHITE = array(
     "In che modo il black box e il white box si completano?",
     "Esempio di codice buggato che white box rileva subito subito ma black box non rileva",
     "Perche' con il White troviamo delle funzionalità in più mentre con il black possiamo fare testing completo sugli scenari del sistema? ",
-    "Perche' c'e' necessità di fare W.B.Box testing"
+    "Perche' c'e' necessità di fare W.B.Box testing",
+    "Perche' calcolare la coverage e cosa indica",
+    "Quali sono le strategie di selezione dei casi di test",
+    "Processo che porta alla scelta di un criterio di copertura",
+    "Cosa va tener conto il category partition",
+    "Cosa significa comprire una classe d'equivalenza",
+    "Vantaggi - Svantaggi W and B box",
+    "Pre e post condition in classi d'equivalenza",
+    "Perché due tester possono fare classi diverse",
+    "Obiettivo di un dato criterio di copertura",
+    "Come calcolo la coverage su una classe d'equivalenza",
+    "Correlazione modello e critoerio di copertura",
+    "Perche' modellare?",
+    "Esempio di codice in cui si esegue test ma non esercitiamo un falut - statement",
+    "incompletezza dello statement coverage",
+    "Test suite 100% Statement e 100% edge coverage",
+    "Limitazione dell'edge coverage",
+    "Programma 100% edge e 100% condition coverage",
+    "Criteri di copertura W.Box",
+    "Criteri di copertura B.Box",
+    "Path coverage",
+    "Perché introduciamo il concetto delle path indipendenti di un CFG"
+
 
 );
 $dbMUTATION = array(
@@ -45,7 +72,12 @@ $dbMUTATION = array(
     "Cosa facciamo quando non uccidiamo un mutante? creare un caso di test apposta?",
     "Esempio di scenario che rilevo quando il mut testing non uccide il mutante",
     "Testing di mutazione, un quarto mutante che non si sa quali mutanti si cancellano e quali no",
-    "esempio di mutante triviale e uno non banale"
+    "esempio di mutante triviale e uno non banale",
+    "Generato automaticamente un mutante, si generano due versioni del programma equivalenti, scartiamo questi mutanti?",
+    "La generazione automatica di mutanti avviene in modo totalmente random?",
+    "Che necessita' c'e' di migliorare la tesst suite con un mutante visto che nel sistema non c'e'",
+    "Fatto mutation testing vengono fuori mutanti  che non vengono uccisi si costruisce un caso di test per ucciderlo?",
+    "Quali sono i tipi di mutanti che posso generare?"
 
 );
 $dbGenetici = array(
