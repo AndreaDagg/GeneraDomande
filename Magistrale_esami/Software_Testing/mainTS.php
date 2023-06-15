@@ -14,7 +14,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylePR.css"
+    <link rel="stylesheet" href="stylePR.css">
     <meta charset="UTF-8">
     <link rel="icon" href="../../img/16.png" type="image/jpg"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"

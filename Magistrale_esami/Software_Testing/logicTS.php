@@ -19,7 +19,7 @@ $dbTESTING = array(
     "Testing and inspection",
     "Cosa indica il numero di bug",
     "Perche' il testing scala",
-    "Testing metodo e funzioni difficoltà",
+    "Testing metodo e funzioni difficoltà"
 
 );
 $dbBLACKandWHITE = array(
@@ -33,7 +33,7 @@ $dbBLACKandWHITE = array(
     "Cosa sugnifica coprire una classe di equivalenza?",
     "cosa significa automatizzare l'esecuzione di un caso di test? (Roberta 16)",
     "Cosa sono le pre-condizioni? Predicati veri prima dell'esecuzione",
-    "Cosa individuano testing e cosa fault localizioation",
+    "Cosa individuano testing e cosa fault localization",
     "Differenza tra testing ed inspection - runnare",
     "In che modo il black box e il white box si completano?",
     "Esempio di codice buggato che white box rileva subito subito ma black box non rileva",
