@@ -1,7 +1,8 @@
 <?php
 
 session_start();
-$db_sec = array(""); 
+$db_sec = array("Cos'e' la one-wayness?",
+""); 
 $db_conf = array("Differenza tra secrecy e OneWayness", 
     "Qualcosa di deterministico è IND-CPA sicuro?",
     "Differenza tra correttezza e sicurezza",
@@ -11,7 +12,9 @@ $db_conf = array("Differenza tra secrecy e OneWayness",
     "Quali sono i 2 problemi di IND-CPA?",
     "Come mitica CCA l'omomorfismo di IND-CPA?",
     "Game IND-CCA",
-    "SE - CCA con MAC"
+    "SE - CCA con MAC",
+    "Vantaggio Ind-CPA dov'e' nascosto il brute force?",
+    "Controesempio OTP-PRF nei confornti IND-CCA e Pi nei confronti di IND-CCA"
 );
 $db_integ = array("Dare la definizione di funzione hash collision-resistant",
     "Proprietà Hash","Game-collision");
