@@ -20,6 +20,15 @@ $db_integ = array("Dare la definizione di funzione hash collision-resistant",
     "Proprietà Hash","Game-collision","Qual e' la particolarità del game delle collisioni?");
 $db_Auten = array("Dare la definizione di MAC",
     "Definizione di existential unforgeability undere CMA"); 
+$db_AE = array("AE Public key e correttezza", 
+    "Problema alla base di RSA e EL Gamal", 
+    "FAme Ind-CPA AE e vantaggio",
+    "Un AE e' IND-CPA sicuro?",
+    "Problema della fattorizzazione e perche' e' difficile", 
+    "Cosa c'e' alla base di RSA",
+    "Perche' non si considerano gli attacchi passivi in PK",
+    "Quale correlazione c'e' tra Sk e Pk",
+    "Perche' PKE non e' IND-CPA");
 $db_def = array("");
 $db_Riduzioni = array("Se lo schema è MAC-UF and Lo schema è IND-CPA sicuro, allora SE è INC-CCA sicuro",
  "Se G e PRG, OTP-PRG e sicuro contro eaves",
