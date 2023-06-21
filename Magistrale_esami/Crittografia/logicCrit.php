@@ -12,7 +12,7 @@ $db_conf = array(
     "Ind-cpa implica ind-cca?",
     "Ind-cca implica ind-cpa?",
     "Quali sono i 2 problemi di IND-CPA?",
-    "Come mitica CCA l'omomorfismo di IND-CPA?",
+    "Come mitiga CCA l'omomorfismo di IND-CPA?",
     "Game IND-CCA",
     "SE - CCA con MAC",
     "Vantaggio Ind-CPA dov'e' nascosto il brute force?",
@@ -23,7 +23,7 @@ $db_integ = array(
     "Proprietà Hash","Game-collision","Qual e' la particolarità del game delle collisioni?");
 $db_Auten = array(
     "Dare la definizione di MAC",
-    "Definizione di existential unforgeability undere CMA"); 
+    "Definizione di exsitential unforgeability undere CMA"); 
 $db_AE = array(
     "AE Public key e correttezza", 
     "Problema alla base di RSA e EL Gamal", 
@@ -49,7 +49,7 @@ $db_Riduzioni = array(
 if (isset($_GET['arg'])) {
     $dbNum = $_GET['arg'];
 } else {
-    $dbNum = rand(0, 9);
+    $dbNum = rand(0, 5);
 }
 
 if (isset($dbNum)) {
@@ -67,13 +67,13 @@ if (isset($dbNum)) {
             $dbCo = $dbDerivateII;
             break;*/
         case 3:
-            $dbCo = $db_Auten;
+            $dbCo = $db_AE;
             break;
         case 4:
             $dbCo = $db_Riduzioni;
             break;
         case 5:
-            $dbCo = $db_def;
+            $dbCo = $db_Auten;
             break;
         case 6:
             $dbCo = $db_def;

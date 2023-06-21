@@ -89,7 +89,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="3"><h4>
-                            ... <h4>
+                            Asimmetrica <h4>
                     </button>
                 </div>
                 <div class="col">
