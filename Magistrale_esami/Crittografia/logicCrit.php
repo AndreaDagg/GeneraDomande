@@ -1,9 +1,11 @@
 <?php
 
 session_start();
-$db_sec = array("Cos'e' la one-wayness?",
-"game inversion"); 
-$db_conf = array("Differenza tra secrecy e OneWayness", 
+$db_sec = array(
+    "Cos'e' la one-wayness?",
+    "game inversion"); 
+$db_conf = array(
+    "Differenza tra secrecy e OneWayness", 
     "Qualcosa di deterministico è IND-CPA sicuro?",
     "Differenza tra correttezza e sicurezza",
     "Game Ind-cpa","Game Ind-cca",
@@ -16,11 +18,14 @@ $db_conf = array("Differenza tra secrecy e OneWayness",
     "Vantaggio Ind-CPA dov'e' nascosto il brute force?",
     "Controesempio OTP-PRF nei confornti IND-CCA e Pi nei confronti di IND-CCA"
 );
-$db_integ = array("Dare la definizione di funzione hash collision-resistant",
+$db_integ = array(
+    "Dare la definizione di funzione hash collision-resistant",
     "Proprietà Hash","Game-collision","Qual e' la particolarità del game delle collisioni?");
-$db_Auten = array("Dare la definizione di MAC",
+$db_Auten = array(
+    "Dare la definizione di MAC",
     "Definizione di existential unforgeability undere CMA"); 
-$db_AE = array("AE Public key e correttezza", 
+$db_AE = array(
+    "AE Public key e correttezza", 
     "Problema alla base di RSA e EL Gamal", 
     "FAme Ind-CPA AE e vantaggio",
     "Un AE e' IND-CPA sicuro?",
@@ -30,14 +35,15 @@ $db_AE = array("AE Public key e correttezza",
     "Quale correlazione c'e' tra Sk e Pk",
     "Perche' PKE non e' IND-CPA");
 $db_def = array("");
-$db_Riduzioni = array("Se lo schema è MAC-UF and Lo schema è IND-CPA sicuro, allora SE è INC-CCA sicuro",
- "Se G e PRG, OTP-PRG e sicuro contro eaves",
- "Se F e PRF, OTP-PRF e IND-CPA sicuro",
- "Sia P uno schema sicuro nel senso di IND-CPA allora P e' sicuro contor multiple encryptions",
- "OTP-PRF ee IND-CPA sicuro, allora OTP-PRF e' anche IND-CPA-ARbitrary len sicuro",
-"Qualsiasi SE simmetrico IND-CCA sicuro e' anche IND-CPA sicuro",  
-"Sia F PRF allora MAC con PRF e UF-CMA sicuro",
-"");
+$db_Riduzioni = array(
+    "Se lo schema è MAC-UF and Lo schema è IND-CPA sicuro, allora SE è INC-CCA sicuro",
+    "Se G e PRG, OTP-PRG e sicuro contro eaves",
+    "Se F e PRF, OTP-PRF e IND-CPA sicuro",
+    "Sia P uno schema sicuro nel senso di IND-CPA allora P e' sicuro contor multiple encryptions",
+    "OTP-PRF ee IND-CPA sicuro, allora OTP-PRF e' anche IND-CPA-ARbitrary len sicuro",
+    "Qualsiasi SE simmetrico IND-CCA sicuro e' anche IND-CPA sicuro",  
+    "Sia F PRF allora MAC con PRF e UF-CMA sicuro",
+    "");
 
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
 if (isset($_GET['arg'])) {
