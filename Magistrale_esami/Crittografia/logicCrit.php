@@ -16,7 +16,9 @@ $db_conf = array(
     "Game IND-CCA",
     "SE - CCA con MAC",
     "Vantaggio Ind-CPA dov'e' nascosto il brute force?",
-    "Controesempio OTP-PRF nei confornti IND-CCA e Pi nei confronti di IND-CCA"
+    "Controesempio OTP-PRF nei confornti IND-CCA e Pi nei confronti di IND-CCA",
+    "Schema ind-cca sicuro",
+    "Schema ind-cpa sicuro",
 );
 $db_integ = array(
     "Dare la definizione di funzione hash collision-resistant",
@@ -27,13 +29,16 @@ $db_Auten = array(
 $db_AE = array(
     "AE Public key e correttezza", 
     "Problema alla base di RSA e EL Gamal", 
-    "FAme Ind-CPA AE e vantaggio",
+    "Game Ind-CPA AE e vantaggio",
     "Un AE e' IND-CPA sicuro?",
     "Problema della fattorizzazione e perche' e' difficile", 
-    "Cosa c'e' alla base di RSA",
+    "Cosa c'e' alla base di RSA mostrare",
     "Perche' non si considerano gli attacchi passivi in PK",
     "Quale correlazione c'e' tra Sk e Pk",
-    "Perche' PKE non e' IND-CPA");
+    "Perche' PKE non e' IND-CPA", 
+    "RSA TextBook",
+    "Game GenRSA"
+);
 $db_def = array("");
 $db_Riduzioni = array(
     "Se lo schema è MAC-UF and Lo schema è IND-CPA sicuro, allora SE è INC-CCA sicuro",
