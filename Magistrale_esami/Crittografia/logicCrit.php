@@ -19,6 +19,9 @@ $db_conf = array(
     "Controesempio OTP-PRF nei confornti IND-CCA e Pi nei confronti di IND-CCA",
     "Schema ind-cca sicuro",
     "Schema ind-cpa sicuro",
+    "Costruzione-PRG", 
+    "Costruzione-PRF",
+    ""
 );
 $db_integ = array(
     "Dare la definizione di funzione hash collision-resistant",
