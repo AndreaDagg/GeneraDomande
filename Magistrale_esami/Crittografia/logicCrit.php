@@ -25,7 +25,9 @@ $db_integ = array(
     "Proprietà Hash","Game-collision","Qual e' la particolarità del game delle collisioni?");
 $db_Auten = array(
     "Dare la definizione di MAC",
-    "Definizione di exsitential unforgeability undere CMA"); 
+    "Definizione di exsitential unforgeability undere CMA",
+    "Mac con 5 bit",
+    ""); 
 $db_AE = array(
     "AE Public key e correttezza", 
     "Problema alla base di RSA e EL Gamal", 
@@ -37,7 +39,14 @@ $db_AE = array(
     "Quale correlazione c'e' tra Sk e Pk",
     "Perche' PKE non e' IND-CPA", 
     "RSA TextBook",
-    "Game GenRSA"
+    "Game GenRSA",
+    "Su cosa si basa El Gamal",
+    "Schema di encription El-gamal",
+    "Game AE CCA",
+    "Mostra El gamal cca sicuro",
+    "Mostra El gamal cpa sicuro",
+    "Mostrare che RSA PROBLEM è meno complesso del problema della fattorizzazione",
+
 );
 $db_def = array("");
 $db_Riduzioni = array(
@@ -48,7 +57,11 @@ $db_Riduzioni = array(
     "OTP-PRF ee IND-CPA sicuro, allora OTP-PRF e' anche IND-CPA-ARbitrary len sicuro",
     "Qualsiasi SE simmetrico IND-CCA sicuro e' anche IND-CPA sicuro",  
     "Sia F PRF allora MAC con PRF e UF-CMA sicuro",
-    "");
+    "Uno schema S è CPA sicuro se e solo se S è deterministico",
+    "Differebza CDH e DDH (anche game)",
+    "Mostrare che OPT-PRF e' IND-CPA sicuro",
+    ""
+);
 
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
 if (isset($_GET['arg'])) {
