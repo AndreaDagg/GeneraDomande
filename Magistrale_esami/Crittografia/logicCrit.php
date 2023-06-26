@@ -60,12 +60,14 @@ $db_Riduzioni = array(
     "Se G e PRG, OTP-PRG e sicuro contro eaves",
     "Se F e PRF, OTP-PRF e IND-CPA sicuro",
     "Sia P uno schema sicuro nel senso di IND-CPA allora P e' sicuro contor multiple encryptions",
-    "OTP-PRF ee IND-CPA sicuro, allora OTP-PRF e' anche IND-CPA-ARbitrary len sicuro",
+    "OTP-PRF e' IND-CPA sicuro, allora OTP-PRF e' anche IND-CPA-ARbitrary len sicuro",
     "Qualsiasi SE simmetrico IND-CCA sicuro e' anche IND-CPA sicuro",  
     "Sia F PRF allora MAC con PRF e UF-CMA sicuro",
     "Uno schema S è CPA sicuro se e solo se S è deterministico",
     "Differebza CDH e DDH (anche game)",
     "Mostrare che OPT-PRF e' IND-CPA sicuro",
+    "H e H2 sono Collision resistent, H3 = H XOR H2 e' Collision resistent?",
+    "Un SE IND-CCA sicuro se e solo se la funzione di encryption e' non deterministica",
     ""
 );
 
