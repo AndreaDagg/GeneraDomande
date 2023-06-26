@@ -51,7 +51,8 @@ $db_AE = array(
     "Mostrare che RSA PROBLEM è meno complesso del problema della fattorizzazione",
     "Cosa garantiscono le filrme digitali",
     "Schema e Game Firme digitali", 
-    "Mostrare RSA e' CCA sicuro"
+    "Mostrare RSA e' CCA sicuro", 
+    ""
 
 );
 $db_def = array("");
@@ -68,7 +69,7 @@ $db_Riduzioni = array(
     "Mostrare che OPT-PRF e' IND-CPA sicuro",
     "H e H2 sono Collision resistent, H3 = H XOR H2 e' Collision resistent?",
     "Un SE IND-CCA sicuro se e solo se la funzione di encryption e' non deterministica",
-    ""
+    "H1 E H2 sono collision resistent, H = H1(H2(x)) e' collision resistent?",
 );
 
 /* arg -> definisce l'argomento. Se non è specificato lo sceglie casualmente*/
