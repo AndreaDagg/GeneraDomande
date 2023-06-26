@@ -49,6 +49,9 @@ $db_AE = array(
     "Mostra El gamal cca sicuro",
     "Mostra El gamal cpa sicuro",
     "Mostrare che RSA PROBLEM è meno complesso del problema della fattorizzazione",
+    "Cosa garantiscono le filrme digitali",
+    "Schema e Game Firme digitali", 
+    "Mostrare RSA e' CCA sicuro"
 
 );
 $db_def = array("");
