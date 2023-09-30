@@ -14,7 +14,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylePR.css">
+    <link rel="stylesheet" href="styleS1.css">
     <meta charset="UTF-8">
     <link rel="icon" href="../../img/16.png" type="image/jpg"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -58,19 +58,19 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="0"><h4>
-                            Testing </h4>
+                            UNIX </h4>
                     </button>
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="1">
-                        <h4> White and Black </h4>
+                        <h4> BUFFER OVERFLOW</h4>
                     </button>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="2"><h4>
-                            Mutation </h4>
+                            XSS </h4>
                     </button>
                 </div>
                 <!-- <div class="col">
@@ -81,7 +81,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
 
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="5"><h4>
-                           ... </h4>
+                           INTRO e Co </h4>
                     </button>
                 </div>
 
@@ -89,12 +89,12 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="3"><h4>
-                            Genetici </h4>
+                            sqlInj </h4>
                     </button>
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="4"><h4>
-                            ... </h4>
+                            Threat Modeling </h4>
                     </button>
                 </div>
             </div>
