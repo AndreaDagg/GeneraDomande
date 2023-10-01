@@ -34,7 +34,7 @@ $dbBUFFER = array(
 , "Come si apre una shell di comando tramite buffer oveflow (sia passando per il buffer stesso sia nel caso in cui non c'è spazio nel buffer [environment])"
 , "vulnerabilita' sulla printf"
 , "a cosa servono i NOP"
-, ""
+, "Obiettivo del B.Overflow"
 
 );
 $dbCROSS = array(
@@ -49,8 +49,8 @@ $dbCROSS = array(
 , "differenze tra stored e reflected"
 , " Parlami di XSS + laboratori su xss reflected"
 , "Creare pagine dinamiche (cookie sessioni hidden file e database)"
-, ""
-, ""
+, "Consa sono le capabilities"
+, "Proprietà della sicuirezza (CIA)"
 
 
 );
