@@ -7,18 +7,14 @@ $dbUNIX = array(
 , "Qual e' il problema alla base dell'elevamento dei privilegi"
 , "Cosa cambia tra sUID e sGID e tra chown chgrp chmod"
 , "Se crea problemi come mai non si permette di cambiare i privilegi degli utenti"
-, "Come avvalorare i registri per far eseguire le vulnerabilita' nel B.O, scrivere un piccolo main"
-, "Basta inserire codice maleolo nello Stack per farlo eseguire?"
-, "Come si fa a modificare l'EIP ipotizzando che sappiamo dove si trova"
-, "Come si fa a scrivere prima dell'EIP - scrivi codice C"
 , "Attacco che non può essere risoplto in UNIX (cavallo di troja) e' un problema intrinseco?"
 , "Unix e' sempre soggetto all'utilizzo di codice malevolo?"
-, "cos'e' SUID e perche' vorrei abbbassare temporaneamente i privilegi"
+, "cos'e' SUID e perche' vorrei abbassare temporaneamente i privilegi"
 , "perche' e' un bene non essere sempre root"
 , "Cosa sonoi EUID e RUID"
 , "Lab a scelta su Unix"
 , "Cosa fare per evitare privilage escalation"
-, "permessi unix differneze traa cvartelle e file"
+, "permessi unix differneze tra cartelle e file"
 
 
 );
@@ -35,11 +31,15 @@ $dbBUFFER = array(
 , "vulnerabilita' sulla printf"
 , "a cosa servono i NOP"
 , "Obiettivo del B.Overflow"
-
+, "Come avvalorare i registri per far eseguire le vulnerabilita' nel B.O, scrivere un piccolo main"
+, "Basta inserire codice maleolo nello Stack per farlo eseguire?"
+, "Come si fa a modificare l'EIP ipotizzando che sappiamo dove si trova"
+, "Come si fa a scrivere prima dell'EIP - scrivi codice C"
 );
+
 $dbCROSS = array(
     "Dove abbiamo l'exploit nel caso di Stored XSS"
-, "Qual e' l'idea del SOP", ""
+, "Qual e' l'idea del SOP"
 , "XSS"
 , "XSS vs XCRF"
 , "xss stored"
@@ -50,19 +50,17 @@ $dbCROSS = array(
 , " Parlami di XSS + laboratori su xss reflected"
 , "Creare pagine dinamiche (cookie sessioni hidden file e database)"
 , "Consa sono le capabilities"
-, "Proprietà della sicuirezza (CIA)"
-
-
+, "Proprieta' della sicuirezza (CIA)"
 );
+
 $dbSQL = array(
     "Qual e' il problema alla base sia di B.Overflow che di SQL injection?"
 , "Architettura client-server"
 , "Http e iformazioni salvate lato client"
 , "Sanificazione SQL"
-, "Misura per mitigare SQLInj piu' utilizzata? "
-, "si può cancellare un DB e capirne la struttura"
-, ""
-
+, "Misura per mitigare SQLInj piu' utilizzata?"
+, "si puo' cancellare un DB e capirne la struttura"
+, "Metodi di sanificazione negli atacchi"
 );
 
 $dbTHREAT = array(

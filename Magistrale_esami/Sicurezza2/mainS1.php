@@ -24,7 +24,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
 </head>
 <body>
 <div id="title" class="container">
-    <h1 id="h1Title"> Genera domande Testing </h1>
+    <h1 id="h1Title"> Genera domande Sicurezza Mod 2 </h1>
 </div>
 <div class="container" id="box">
     <?php if (isset($_SESSION['result'])) { ?>
