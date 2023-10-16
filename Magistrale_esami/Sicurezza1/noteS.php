@@ -6,10 +6,10 @@ session_start();
 
 $_SESSION['NumIndex'] = 0;
 $NotePass = Array("");
-$NoteCos = Array("..." => array(""), "..." => array(""),"..." => array(""), "..." => array(""), "..." => array(""),"..." =>(""),"..." => (""));
+$NoteCos = Array("..." => array(""), "..." => array(""),"..." => array(""));
 $_SESSION['NumIndex'] = $NoteCos;
 
 print_r($_SESSION['NumIndex']);
 
-header("location: mainCrit.php ");
+header("location: mainS.php ");
 ?>
