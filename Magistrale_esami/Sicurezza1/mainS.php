@@ -39,7 +39,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
         <div class="alert alert-light" role="article" id="alert">
         </div>
     <?php } ?>
-    <form action="logicS1.php" id="genrator">
+    <form action="logicS.php" id="genrator">
         <button id="btnGenDom" type="submit" class="btn btn-dark btn-lg btn-block"><h2
                     style="font-family: 'Comic Sans MS'; ">Genera Domanda</h2></button>
     </form>
@@ -53,24 +53,24 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>-->
 <div id="argF">
-    <form action="logicS1.php" method="get">
+    <form action="logicS.php" method="get">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="0"><h4>
-                            UNIX </h4>
+                            Model Checking </h4>
                     </button>
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="1">
-                        <h4> Model Checking</h4>
+                        <h4>  ... </h4>
                     </button>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="2"><h4>
-                            XSS </h4>
+                            ... </h4>
                     </button>
                 </div>
                 <!-- <div class="col">
