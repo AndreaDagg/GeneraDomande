@@ -1,23 +1,46 @@
 <?php
 session_start();
 
-$dbUNIX = array(
+$dbVerifica_Software = array(
+    "Differenza tra testing e tecniche simboliche",
+    "Cos'e' SAT",
+    "Loop invariant",
+    "Over approximation",
+    "se vado a testare un sistema, chi mi garantisce che non ci siano errori?",
+    "software life-critical / safety critical cosa bisogna garantire?",
+    "Vantaggio e Svantaggio dei testing"
+);
+
+$dbModel_Checking = array(
+    "Come sono detti i sistemi che non terminano mai? Possiamo usare Model Checking?",
+    "Quali sistemi non terminano mai? Poosso usare il Model Checking?",
+    ""
+);
+
+$dbModellazione = array(
+"Che tipologia di funzioni si usano per modellare i sistemi?",
+    "Come deve essere il dominio delle variabili nella modellazione con funzioni booleane?",
+    "A cosa serve stabilire le variabili ed il loro dominio?",
+    "Cosa rappresenta la rappresentazione simbolica?",
+    "Nella funzione di transiszione cosa accade se non caratterizzo una variabile?",
+    "Modellazione del TRIS",
+    "Cosa possono modellare i transition system?",
+    "Modellazione di una procedura, come la rappresentiamo (Variabili e statement)?",
+    "Modellazione di assegnamento",
+    "Modellazione if-then-else",
+    "Modellazione di un ciclo",
+    "Cosa serve il not nelle paretensi",
+    "Cosa ritorna la funzione init"
 
 );
 
-$dbBUFFER = array(
-
+$dbBMC = array(
+"Cosa posso dedurre se BMC non trova errori? e cosa se MC non trova errori?",
+    "Se BMC trova un bug e' reale?",
+    ""
 );
 
-$dbCROSS = array(
-
-);
-
-$dbSQL = array(
-
-);
-
-$dbTHREAT = array(
+$dbBmcConcorrente = array(
 
 );
 

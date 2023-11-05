@@ -58,7 +58,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="0"><h4>
-                            Model Checking </h4>
+                            Verifica Software </h4>
                     </button>
                 </div>
                 <div class="col">
