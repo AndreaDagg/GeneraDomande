@@ -59,19 +59,19 @@ if (isset($_GET['arg'])) {
 if (isset($dbNum)) {
     switch ($dbNum) {
         case 0:
-            $dbCo = $dbUNIX;
+            $dbCo = $dbVerifica_Software;
             break;
         case 1:
-            $dbCo = $dbBUFFER;
+            $dbCo = $dbModel_Checking;
             break;
         case 2:
-            $dbCo = $dbCROSS;
+            $dbCo = $dbModellazione;
             break;
         case 3:
-            $dbCo = $dbSQL;
+            $dbCo = $dbBMC;
             break;
         case 4:
-            $dbCo = $dbTHREAT;
+            $dbCo = $dbBmcConcorrente;
             break;
         case 5:
             $dbCo = $dbINTRO;
