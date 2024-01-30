@@ -81,7 +81,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
 
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-primary" name="arg" value="5"><h4>
-                            ... </h4>
+                            BDD </h4>
                     </button>
                 </div>
 
@@ -94,7 +94,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
                 </div>
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="4"><h4>
-                            BMC Concorrente </h4>
+                            Concorrenza </h4>
                     </button>
                 </div>
             </div>
@@ -102,7 +102,7 @@ if (!isset($_SESSION['NumIndex']) || $_SESSION['NumIndex'] == 0) {
             <div class="row">
                 <div class="col">
                     <button id="btnARG" type="submit" class="btn btn-outline-secondary" name="arg" value="6"><h4>
-                            ... </h4>
+                            CBMC </h4>
                     </button>
                 </div>
                 <div class="col">
