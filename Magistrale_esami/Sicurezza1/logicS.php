@@ -135,9 +135,9 @@ $dbBDD = array(
 );
 
 $dbCBMC = array(
-    "Scrivere un programma C che se gli do un espressione C fallisce se è soddisfacibile? [assert]"
-, "(3Color graph) Grafo non diretto e vuoi sapere se è possibile associare un colore ad ogni nodo, così che per ogni arco nel grafo questo dev'essere incidente ad un nodo diverso. Determinare se può essere soddisfacibile"
-, "(3Color graph) Il primo colore com'è assegnato? ed il secondo? alla fine cosa fai? cosa metti come espressione dell'assert? come lo fai fallire se arrivi alla fine (dato già i controlli che fai se ci arrivi sigifica che sono già diversi) se sai sono già tutti diversi"
+    "Scrivere un programma C che se gli do un espressione C fallisce se e' soddisfacibile? [assert]"
+, "(3Color graph) Grafo non diretto e vuoi sapere se e' possibile associare un colore ad ogni nodo, così che per ogni arco nel grafo questo dev'essere incidente ad un nodo diverso. Determinare se puo' essere soddisfacibile"
+, "(3Color graph) Il primo colore com'e' assegnato? ed il secondo? alla fine cosa fai? cosa metti come espressione dell'assert? come lo fai fallire se arrivi alla fine (dato già i controlli che fai se ci arrivi sigifica che sono già diversi) se sai sono gia' tutti diversi"
 
 );
 
