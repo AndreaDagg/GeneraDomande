@@ -33,7 +33,8 @@ $dbModel_Checking = array(
 , ""
 , ""
 , ""
-, "", ""
+, ""
+, ""
 );
 
 $dbModellazione = array(
@@ -55,15 +56,15 @@ $dbModellazione = array(
 , "cosa descrive init"
 , "si usa targhet per modellare"
 , "come mai un ciclo dev'essere unwind, va solo avanti"
+, "Se ho N stati nel mio sistema, quante variabili servono per rappresentarlo con una funzione booleana? Perché?"
+, "Cos'e' uno state transition system e cosa c'entrano le funzioni booleane?"
 
 );
 
 $dbBMC = array(
     "Cosa posso dedurre se BMC non trova errori? e cosa se MC non trova errori?",
-    "Se BMC trova un bug e' reale?",
-    ""
-, "Cose tecniche del MC
-"
+    "Se BMC trova un bug e' reale?"
+, "Cose tecniche del MC"
 , "Formula del BMC "
 , "Chi e' init? Cos'e'? "
 , "Cos'e' S0 "
@@ -92,11 +93,12 @@ $dbBmcConcorrente = array(
 , "Numero di interliving e problema nella concorrenza"
 , "Sequenzializzazione"
 , "Simulare le interazioni / interlivings"
-    ,"Paralre della sequenzializzazione"
-    ,"cose principali per fare la sequenzializzazione con LAZYCSeq"
-    ,"Descrivere ad alto livello cosa fa il main drive"
-    ,"Nel dettagio come viene istrimentato il codice del tread Fi"
-    ,"Formula NextCS"
+, "Paralre della sequenzializzazione"
+, "cose principali per fare la sequenzializzazione con LAZYCSeq"
+, "Descrivere ad alto livello cosa fa il main drive"
+, "Nel dettagio come viene istrimentato il codice del tread Fi"
+, "Formula NextCS"
+, "Quale Macro in LazyCSeq"
 );
 
 $dbBDD = array(
@@ -148,7 +150,7 @@ $dbINTRO = array();
 if (isset($_GET['arg'])) {
     $dbNum = $_GET['arg'];
 } else {
-    $dbNum = rand(0, 3);
+    $dbNum = rand(0, 6);
 }
 
 if (isset($dbNum)) {
