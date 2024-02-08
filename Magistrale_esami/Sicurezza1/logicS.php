@@ -29,12 +29,7 @@ $dbModel_Checking = array(
 , "Come mai un sistema infinito non è detto sia indecidibie?"
 , "Data una funzione booleana cosa significa che è soddisfacibile?"
 , "La funzione booleana è facile da risolvere?"
-, ""
-, ""
-, ""
-, ""
-, ""
-, ""
+
 );
 
 $dbModellazione = array(
@@ -56,9 +51,8 @@ $dbModellazione = array(
 , "cosa descrive init"
 , "si usa targhet per modellare"
 , "come mai un ciclo dev'essere unwind, va solo avanti"
-, "Se ho N stati nel mio sistema, quante variabili servono per rappresentarlo con una funzione booleana? Perché?"
+, "Se ho una variabile che può assumere N valoria, quante variabili servono per rappresentarlo con una funzione booleana? Perche'?"
 , "Cos'e' uno state transition system e cosa c'entrano le funzioni booleane?"
-
 );
 
 $dbBMC = array(
@@ -75,30 +69,29 @@ $dbBMC = array(
 , "se ho la formula PHi soddisfacibilile posso dire di aver visto tutte le path? "
 , "Riduzione al problema della soddisfiacibilià->Psì con K ti dice qualcosa"
 , "Cosa sono Si ed Si+1? "
-, "Se nalle formula psì i tran iniziano da i=1 cosa succede? "
+, "Se nalle formula psi' i tran iniziano da i=1 cosa succede? "
 , "Per il check di completezza quanto sei sicuro che non ci sono più stati da vedere?"
 , "Dalla formula di incomp se facciamo partire il secondo indice da 1, abbiamo problemi perché i e j possono avere lo stesso valore e quindi diventa insoddisfacibile."
 , "La formula incomp dev'essere soddisfacibile o insoddisfacibile? "
 , "Cosa controlla incomp? "
 , "Trovare un assegnameto di soddisfacibilità per la formula incomp cosa significa?"
-, "Esiste un essecuzione dove qualsiasi coppia di nodi sono diverse. Se questa è soddisfacibile perché puoi concludere che non cisaranno nodi nuovi"
+, "Esiste un'essecuzione dove qualsiasi coppia di nodi sono diverse. Se questa è soddisfacibile perché puoi concludere che non cisaranno nodi nuovi"
 , "A cosa corrisponde il k nel caso pessimo nella formula BMC? "
-, ""
 );
 
 $dbBmcConcorrente = array(
-
     "Cosa significa rendere un programma bounded"
 , "Dara Race e Lock"
 , "Numero di interliving e problema nella concorrenza"
 , "Sequenzializzazione"
 , "Simulare le interazioni / interlivings"
-, "Paralre della sequenzializzazione"
+, "Parlare della sequenzializzazione"
 , "cose principali per fare la sequenzializzazione con LAZYCSeq"
 , "Descrivere ad alto livello cosa fa il main drive"
-, "Nel dettagio come viene istrimentato il codice del tread Fi"
+, "Nel dettagio come viene istrumentato il codice del tread Fi"
 , "Formula NextCS"
 , "Quale Macro in LazyCSeq"
+    ,"Macro if then else"
 );
 
 $dbBDD = array(
@@ -128,7 +121,7 @@ $dbBDD = array(
 , "Che taglia ha BDD in base al numero di variabili?"
 , "Che altezza ha BDD con n variabili?  "
 , "Si puo' ordinare un BDD in modo diverso"
-, "2^n - 1 è esponenziale, allora perche' si usano BDD? "
+, "2^n - 1 e' esponenziale, allora perche' si usano BDD? "
 , "Quali sono le due regole di semplificazione? "
 , "Bdd di una tautologia? e se è sempre falso?"
 , "Supponi di avere una funziona bool di 3 variabili A,B,C. I valori di F falli tu come ti pare [0,1,1,1,0,0,1,0]. scrivere la tavola di verità di exist_A? Su qunte variabili sarà?"
@@ -140,7 +133,8 @@ $dbCBMC = array(
     "Scrivere un programma C che se gli do un espressione C fallisce se e' soddisfacibile? [assert]"
 , "(3Color graph) Grafo non diretto e vuoi sapere se e' possibile associare un colore ad ogni nodo, così che per ogni arco nel grafo questo dev'essere incidente ad un nodo diverso. Determinare se puo' essere soddisfacibile"
 , "(3Color graph) Il primo colore com'e' assegnato? ed il secondo? alla fine cosa fai? cosa metti come espressione dell'assert? come lo fai fallire se arrivi alla fine (dato già i controlli che fai se ci arrivi sigifica che sono già diversi) se sai sono gia' tutti diversi"
-
+, "Esempio SSA form"
+, ""
 );
 
 $dbINTRO = array();
